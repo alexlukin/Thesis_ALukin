@@ -17,6 +17,7 @@
 % Options
 %
 \RequirePackage{etoolbox}
+\newcommand{\ket}[1]{|#1\rangle}
 
 % Line spacing: dsingle/ddouble
 %   Whether to use single- or doublespacing.
@@ -235,7 +236,7 @@
 	\newpage
 	\thispagestyle{empty}
 	\vspace*{\fill}
-	\scshape \noindent \small \copyright \small 2014\hspace{3pt}-- \theauthor \\
+	\scshape \noindent \small \copyright \small 2018\hspace{3pt}-- \theauthor \\
 	\noindent all rights reserved.
 	\vspace*{\fill}
 	\newpage
