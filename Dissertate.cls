@@ -17,7 +17,17 @@
 % Options
 %
 \RequirePackage{etoolbox}
-\newcommand{\ket}[1]{|#1\rangle}
+\newcommand{\Renyi}{R\'{e}nyi\hspace{1mm}}
+\newcommand{\tr}[1]{{\rm{Tr}}{#1}}
+
+\newcommand{\ev}[1]{\left\langle #1\right\rangle}
+\newcommand{\bra}[1]{\left\langle #1\right|}
+\newcommand{\ket}[1]{\left|#1\right\rangle}
+\newcommand{\mat}[2]{\ket{#1}\bra{#2}}
+\newcommand{\braket}[2]{\left\langle #1\left|#2\right.\right\rangle}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsthm}
 
 % Line spacing: dsingle/ddouble
 %   Whether to use single- or doublespacing.
@@ -268,6 +278,7 @@
 \newcommand{\contentspage}{
     \pdfbookmark{\contentsname}{Contents}
     \tableofcontents
+    \setcounter{tocdepth}{1}
 }
 
 \newcommand{\dedicationpage}{
