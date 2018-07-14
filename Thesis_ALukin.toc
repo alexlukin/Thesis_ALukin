@@ -1,8 +1,11 @@
 \contentsline {chapter}{\numberline {0}Thermalization in an isolated quantum\nobreakspace {}system}{1}{chapter.0}
 \contentsline {section}{\numberline {0.1}Statistical mechanics: from classical to quantum}{1}{section.0.1}
-\contentsline {section}{\numberline {0.2}Quench dynamics of an isolated quantum system}{3}{section.0.2}
-\contentsline {section}{\numberline {0.3}Experimental protocol}{4}{section.0.3}
-\contentsline {section}{\numberline {0.4}Local observables in the thermalized pure state}{5}{section.0.4}
-\contentsline {section}{\numberline {0.5}Thermalization of subsystem density matrix}{8}{section.0.5}
-\contentsline {chapter}{Appendix \numberline {A}Computing expectation values in thermalized systems}{9}{Appendix.1.A}
-\contentsline {chapter}{References}{15}{chapter*.6}
+\contentsline {section}{\numberline {0.2}Quench dynamics of an isolated quantum system}{4}{section.0.2}
+\contentsline {section}{\numberline {0.3}Experimental protocol}{5}{section.0.3}
+\contentsline {section}{\numberline {0.4}Local observables in the thermalized pure state}{6}{section.0.4}
+\contentsline {section}{\numberline {0.5}Thermalization of subsystem density matrix}{9}{section.0.5}
+\contentsline {section}{\numberline {0.6}Global state purity}{11}{section.0.6}
+\contentsline {section}{\numberline {0.7}Entanglement entropy dynamics}{13}{section.0.7}
+\contentsline {section}{\numberline {0.8}Correspondence between entanglement and thermal entropy}{15}{section.0.8}
+\contentsline {chapter}{Appendix \numberline {A}Computing expectation values in thermalized systems}{19}{Appendix.1.A}
+\contentsline {chapter}{References}{24}{chapter*.15}
