@@ -1,9 +1,16 @@
 %!TEX root = ../dissertation.tex
-\begin{savequote}[75mm]
-Nulla facilisi. In vel sem. Morbi id urna in diam dignissim feugiat. Proin molestie tortor eu velit. Aliquam erat volutpat. Nullam ultrices, diam tempus vulputate egestas, eros pede varius leo.
-\qauthor{Quoteauthor Lastname}
-\end{savequote}
+%\begin{savequote}[75mm]
+%Nulla facilisi. In vel sem. Morbi id urna in diam dignissim feugiat. Proin molestie tortor eu velit. Aliquam erat volutpat. Nullam ultrices, diam tempus vulputate egestas, eros pede varius leo.
+%\qauthor{Quoteauthor Lastname}
+%\end{savequote}
 
-\chapter{Engineered optical potentials}
+\chapter{Holographic approach to arbitrary potential generation}
 
-Bla bla
+\section{Why do we need custom optical potentials?}
+The main advantage of cold atoms experiments is an ability to prepare and probe the system on characteristic time and length scales (for a lattice models those would be a tunneling time and lattice spacing respectively). Quantum gas microscope enables us to observe our lattice system with a single site resolution, which lead to the first direct observation of superfluid to Mott insulator \cite{Bakr2010, bloch} as well as paramagnet to aniferromagent \cite{Simon2011, Parsons??} quantum phase transitions. However, in order to fully enable the capabilities of such quantum simulators one needs a tool to arbitrary control the shape of optical potentials in the system. This would enable initialization of initial states with high fidelity \cite{us, somebody else?}, studies of the systems with complex \cite{Tilman QPC, Roatti QPC} and dynamically changing \cite{??} geometries. To achieve this, one has to control the light intensity on $\approx 1$ lattice site scale, here the microscope becomes handy again.
+
+\section{Spatial light modulators in the image plane}
+The first straight forward way is to use the microscope in reverse, by imaging a desired light pattern onto the atoms \cite{P. Schauß thesis, RMA thesis, MAZU thesis}. Although this method is very powerful for creating large scale, smooth-varying potentials, it has two major challenges. \textit{First}, the wavelength of conservative light potentials, that one wants to project, is generally very different from the atom imaging wavelength, which most quantum gas microscopes are optimized for. This can lead to significant distortion of the desired wavefront due to chromatic aberrations, if the imaging system is not specifically corrected for that. First two leading orders of aberrations are given by defocus and spherical aberration. This problem can be solved by either using an achromatic imaging system, that is wavelength insensitive in the desired range, or precompensating the imaged wavefront for the defocus cosed by the imaging. \textit{Second}, it is fundamentally impossible to create $100 \%$ intensity modulation of the potential on the single site scale without using Fourier filtering and phase control of the wave front.
+
+In order to illustrate the point above let's recall how a single lance is related to the Fourier transform. Consider we have a lance with a focal distance $f$
+
