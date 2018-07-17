@@ -1,2 +1,13 @@
 Thesis_ALukin.pdf
-Thesis_ALukin.log
+
+*~
+*.swp
+*.aux
+*.asv
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+~$*.doc*
+*.tmp
