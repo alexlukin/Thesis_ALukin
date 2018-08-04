@@ -4,7 +4,7 @@
 \section{Law entropy initial states}
 Quantum mechanics gives us tools to study highly correlated system. The most famous example is an entangled Bell state \cite{something}, which can be written in context of two spin $\frac{1}{2}$ particles as 
 \begin{equation}
-\left| \psi \right>=(\left| \uparrow \downarrow \right>+ \left| \downarrow \uparrow \right>)/2,
+\left| \psi \right>=(\left| \uparrow \downarrow \right>+ \left| \downarrow \uparrow \right>)/\sqrt{2},
 \end{equation}
 where up and down arrows represent one of the two states of each spin. The remarkable property of this state is, that no matter which basis one would chose to measure both particles in, the results of the measurement will always be anti correlated. This entanglement could further be utilized as a resource for variety of application ranging form metrology and sensing \cite{sombody} to quantum computing \cite{Chuang book} and secure quantum communications \cite{something}. However those correlations are very fragile: addition of any amount of classical mixture of $\left| \uparrow \right>$ and $\left| \downarrow \right>$ states to any of the spins immediately destroys the perfect correlations between the two, that ultimately limits the practical applications of quantum techniques. In this chapter we will show, how using the single site control over the atoms in our quantum gas microscope, we can prepare and control highly entangled many-particle quantum systems, in particular in the context of quantum simulations. 
 
@@ -36,7 +36,31 @@ By increasing the DMD beam power we could in principal initialize even longer ch
  
  To mitigate this issue we add another step to this process. After a very short expansion time, when the edge of the atom distribution moves few sites away from the barrier, and it's effect can be neglected. We briefly capture the atoms back into the lattice and then release them again. This process randomizes the momentum of each atom and allows them to expand into corresponding half tube with zero center of mass momentum. This allows us to spread the occupation of a single site of the plaquette into $\sim 50$ lattice sites, resulting in the $94\%$ probability of successfully detecting $3$ atoms or less.
  
- \section{Measuring many-body purity by interference}
- The techniques outlined in the previous sections allow us to prepare and readout the states with high fidelity. In this section we will outline the procedure, that allows us to measure purity of a quantum state. A more in depth explanation can be found here \cite{preiss thesis}.
+  \section{Pure versus mixed states}
+In order to understand what does the purity of a state means and why is it important to be able to measure it let's take a closer look at the difference between the quantum superposition and classically mixed states. Although both of them can lead to different measurement outcomes in some bases, there exist a basis in which a pure quantum state will result in only possible measurement outcome. As an example imagine that we have many copies of a spin $\frac{1}{2}$ particle, and we can  measure each of them in along any of the axis $x$, $y$, and $z$. If we had prepared half of the particles in a state $\left| \uparrow \right>$ and the other half in a state $\left| \downarrow \right>$ along the $z$ direction, the measurement in any of the bases will result in the $50/50$ split between the outcomes. Hence we will conclude that the state was mixed. Now, if the particles were initially prepared in the state $(\left| \uparrow  \right>+ \left| \downarrow  \right>)/\sqrt{2}$, the measurement will also lead to the $50/50$ split between the outcomes in $y$ and $z$ basis. However, if we measure this state along $x$ direction, we find that it produces only one of two possible outcomes. 
  
- As was discussed in the beginning of this chapter entanglement is a paramount property and resource of quantum mechanics, however detecting one can be a formidable tusk, since it needs to be distinguished from the classical correlations in the system.
+ In terms of formal mathematical notations it is useful to introduce a concept of density matrix. Given a state $\left|\psi \right>$ the density matrix is defined as an outer product of the state with itself, and can be formally written as $\rho_{\mathrm{pure}} = \left|\psi \right> \left< \psi \right|$. It is now easy to generalize this concept to include the mixed states, since they are just a collection of different pure states that occur  with certain probabilities, and can formally be written as $\rho_{\mathrm{mixed}} = \sum_{i} c_{i}\left|\psi_{i} \right> \left< \psi_{i} \right|$, where $c_{i}$ is the probability of state $\left|\psi_{i} \right>$ so that $\sum_{i}c_{i}=1$. This gives us a very intuitive way of quantifying the purity of a given state by looking at the trace of the square of the density matrix. In the case of a pure state 
+ \begin{equation}
+  Tr(\rho_{\mathrm{pure}}^2) = Tr(\left|\psi \right> \left< \psi \right| \left|\psi \right> \left< \psi \right|) = Tr(\left|\psi \right> \left< \psi \right|) = Tr(\rho_{\mathrm{pure}})=1.
+ \end{equation}
+ On the other hand, if the state is mixed
+ \begin{equation}
+ Tr(\rho_{\mathrm{mixed}}^2) = Tr(\sum_{i} c_{i}\left|\psi_{i} \right> \left< \psi_{i} \right| \sum_{j} c_{j}\left|\psi_{j} \right> \left< \psi_{j} \right|) = Tr(\sum_{i} c^2_{i}\left|\psi_{i} \right> \left< \psi_{i} \right|) = \sum_{i} c^2_{i},
+ \end{equation}
+and since there should be at least two non zero terms in this sum $Tr(\rho_{\mathrm{mixed}}^2) <1$. This means, that by measuring the trace of the density matrix squared, we can tell how pure the state is. 
+
+Now let's consider what happens to the purity of a state, described by a density matrix $\rho$, during the coherent time evolution. The time evolved density matrix can be written as $\rho(t) = U\rho(0) U^+$, where $U$ is the unitary evolution operator, and hence 
+\begin{equation}
+Tr(\rho^2(t)) = Tr(U\rho(0) U^+ U\rho(0) U^+) = Tr(U\rho(0) \rho(0) U^+) = Tr(U^+ U\rho(0) \rho(0))  = Tr(\rho(0)^2). 
+\end{equation}
+This means that unitary evolution preserves the purity of the initial state. This also gives us a way to determine whether the dynamics in the system is coherent or not, since any coupling to environment will result in loss of the purity. 
+
+ \section{Measuring many-body purity by interference}
+In this section we will outline the procedure, that allows us to experimentally measure the purity of a quantum state. A more in depth explanation can be found here \cite{preiss thesis}. In order to understand how this method works, it is instructive to consider how so called Hong-Ou-Mandel effect works. The set up is the fallowing: consider two photons of identical frequency incident onto a perfect $50/50$ beamsplitter. If the photon arrive at the beamsplitter at the same time, there is no way to determine the correspondence between the photons on the output port with those at the input, this is where the quantum nature of these particles comes into play. 
+
+Mathematically the beamsplitter transformation can be written in terms of creation an annihilation operators of the input modes i1, i2 and the output modes o1, o2 as
+\begin{equation}
+a_{i1}^+ = (a_{o1}^+ +ia_{o2}^+ )/\sqrt{2}
+\
+a_{i2}^+ = (ia_{o1}^+ +a_{o2}^+ )/\sqrt{2}
+\end{equation}
