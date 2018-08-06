@@ -55,12 +55,23 @@ Tr(\rho^2(t)) = Tr(U\rho(0) U^+ U\rho(0) U^+) = Tr(U\rho(0) \rho(0) U^+) = Tr(U^
 \end{equation}
 This means that unitary evolution preserves the purity of the initial state. This also gives us a way to determine whether the dynamics in the system is coherent or not, since any coupling to environment will result in loss of the purity. 
 
- \section{Measuring many-body purity by interference}
-In this section we will outline the procedure, that allows us to experimentally measure the purity of a quantum state. A more in depth explanation can be found here \cite{preiss thesis}. In order to understand how this method works, it is instructive to consider how so called Hong-Ou-Mandel effect works. The set up is the fallowing: consider two photons of identical frequency incident onto a perfect $50/50$ beamsplitter. If the photon arrive at the beamsplitter at the same time, there is no way to determine the correspondence between the photons on the output port with those at the input, this is where the quantum nature of these particles comes into play. 
+ \section{Hong-Ou-Mandel effect}
+In the next few sections we will outline the procedure, that allows us to experimentally measure the purity of a quantum state. A more in depth explanation can be found here \cite{preiss thesis}. In order to understand how this method works, it is instructive to consider how so called Hong-Ou-Mandel effect \cite{HOM} works. The set up is the fallowing: Consider two photons that are incident onto two different input ports of a perfect $50/50$ beamsplitter. Furthermore, let's suppose that they are identical to one an other in every aspect, except for some parameter $\lambda$, which can be anything, from photon frequency to the exact arrival time onto the beamsplitter (for simplicity let's assume that they have different wavelength $\lambda_1$ and $\lambda_2$).
 
 Mathematically the beamsplitter transformation can be written in terms of creation an annihilation operators of the input modes i1, i2 and the output modes o1, o2 as
 \begin{equation}
-a_{i1}^+ = (a_{o1}^+ +ia_{o2}^+ )/\sqrt{2}
-\
-a_{i2}^+ = (ia_{o1}^+ +a_{o2}^+ )/\sqrt{2}
+	\begin{aligned}
+& a_{i1}^+ \rightarrow (a_{o1}^+ +ia_{o2}^+ )/\sqrt{2} \\
+& a_{i2}^+ \rightarrow (ia_{o1}^+ +a_{o2}^+ )/\sqrt{2}.
+	\end{aligned}
 \end{equation}
+When two photons are incident onto two different ports of the beamsplitter, the resulting state can be found as fallowing:
+\begin{equation}
+\begin{split}
+& a_{i1}^+(\lambda_1) a^+_{i2}(\lambda_2) \ket{0} \rightarrow  \frac{1}{2} (a_{o1}^+(\lambda_1) +ia_{o2}^+(\lambda_1) ) (ia_{o1}^+(\lambda_2) +a_{o2}^+(\lambda_2) )\ket{0} = \\
+&=\frac{1}{2} (i a_{o1}^+(\lambda_1) a_{o1}^+(\lambda_2) + ia_{o2}^+(\lambda_1)a_{o2}^+(\lambda_1) +a_{o1}^+(\lambda_1) a_{o2}^+(\lambda_2) - a_{o2}^+(\lambda_1) a_{o1}^+(\lambda_2))\ket{0},
+\end{split}
+\label{eq:BS}
+\end{equation}
+where $\ket{0}$ corresponds to a vacuum state. We can see, that, in general, the beamsplitter results in $3$ possible states: $\ket{2,0}$, $\ket{0,2}$ and $\ket{1,1}$, where $\ket{m,n}$ represents a state with m photons in the port one and n photons in the port two on the output side of the beamsplitter. However, if the photon infrequences are identical, there is no way to determine the correspondence between the photons on the output port with those at the input, this is where the quantum nature of these particles comes into play. In this case two last terms in the second line of equation~\ref{eq:BS} cancel each other, and the state $\ket{1,1}$ does not occur anymore. This effect can be summarized as following: if two identical photons are incident onto a perfect $50/50$ beamsplitter the probability of simultaneously detecting a photon in each of the output ports equals to zero. 
+
