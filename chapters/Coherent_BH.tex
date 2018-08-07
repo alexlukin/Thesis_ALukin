@@ -73,5 +73,39 @@ When two photons are incident onto two different ports of the beamsplitter, the 
 \end{split}
 \label{eq:BS}
 \end{equation}
-where $\ket{0}$ corresponds to a vacuum state. We can see, that, in general, the beamsplitter results in $3$ possible states: $\ket{2,0}$, $\ket{0,2}$ and $\ket{1,1}$, where $\ket{m,n}$ represents a state with m photons in the port one and n photons in the port two on the output side of the beamsplitter. However, if the photon infrequences are identical, there is no way to determine the correspondence between the photons on the output port with those at the input, this is where the quantum nature of these particles comes into play. In this case two last terms in the second line of equation~\ref{eq:BS} cancel each other, and the state $\ket{1,1}$ does not occur anymore. This effect can be summarized as following: if two identical photons are incident onto a perfect $50/50$ beamsplitter the probability of simultaneously detecting a photon in each of the output ports equals to zero. 
+where $\ket{0}$ corresponds to a vacuum state. We can see, that, in general, the beamsplitter results in $3$ possible states: $\ket{2,0}$, $\ket{0,2}$ and $\ket{1,1}$, where $\ket{m,n}$ represents a state with m photons in the port one and n photons in the port two on the output side of the beamsplitter. However, if the photon frequencies are identical, there is no way to determine the correspondence between the photons on the output port with those at the input, this is where the quantum nature of these particles comes into play. In this case two last terms in the second line of equation~\ref{eq:BS} cancel each other, and the state $\ket{1,1}$ does not occur anymore. This effect can be summarized as following: if two identical photons are incident onto a perfect $50/50$ beamsplitter the probability of simultaneously detecting a photon in each of the output ports equals to zero. However, if the photons can be distinguished in some way, the probability of simultaneous detection becomes non-zero.
 
+This effect can be also realized with massive bosonic particles in the fallowing way: Consider a double-well with a coupling strength $J$. The corresponding Hamiltonian reads 
+\begin{equation}
+H_{DW} = -J(a^+_L a_R + a^+_R a_L),
+\end{equation}
+where $a^+_{L(R)}$ is bosonic creation operator for the left (right) site of the double-well. In the Heisenberg picture after an evolution time $t= \frac{2 \pi}{8J}$ the creation operators for the corresponding wells becomes
+\begin{equation}
+\begin{aligned}
+& a_{L}^+ \rightarrow (a_{L}^+ +ia_{R}^+ )/\sqrt{2} \\
+& a_{R}^+ \rightarrow (ia_{L}^+ +a_{R}^+ )/\sqrt{2}.
+\end{aligned}
+\end{equation}
+Notice that, if we define left (right) well before the time evolution as input i1 (i2) and the same wells after the evolution as o1 (o2), this transformation becomes exactly identical to the beamsplitter one in equation \ref{eq:BS}. Hence, if we start with a single particle in each well, after the time evolution corresponding to the beamsplitter oration the probability of finding one particle in each well should be equal to zero. 
+
+\begin{figure*}[t]
+	\centering
+	\includegraphics[scale=1]{figures/CBH_DW.pdf}
+	\caption{{\bf Encoding phase and amplitude information with a grating}. {\bf A} When a light with initial wave vector $K_0$ passes through an amplitude grating with period $d$, it's outgoing wave vector can be changed by any integer multiple of grating wave vector $K_g\propto \frac{1}{d}$. {\bf B} Tow patches with the grating of the same period $d$ but different duty cycles $q_1$ and $q_2$ are shown. Since the duty cycle determines how much light goes through, the intensity of the outgoing light is proportional to the duty cycle. The outgoing light also carries the information about the local phase of the grating, by imprinting it onto the phase of the outgoing electric field.}
+	\label{fig:CBH_DW}
+\end{figure*}
+
+The first observations of Hong-Ou-Mandel interference of massive bosonic particles were made in optical tweezers \cite{Kaufman2014} and momentum states of helium BECs \cite{Lopes2015}. To observe this effect in our experiment, we prepare two atoms in the neighboring wells of our optical lattice. Using DMD we isolate those wells by applying a repulsive potential, that detunes sites next to the double-well off-resonance for tunneling (see fig~\ref{fig:CBH_DW}). The exact shape of the DMD pattern is given by
+\begin{equation}
+V_{DW}(x) = (e^{-\frac{(x-1.5)^2}{0.95^2}} - 0.52e^{-\frac{(x)^2}{0.9^2}} + e^{-\frac{(x+1.5)^2}{0.95^2}})^2,
+\end{equation}
+where $x$ is measured in lattice sites. The middle bump is added in order to make the offset between two minima of the resulting potential be insensitive to relative alignment of the DMD pattern and the lattice. For our experiments we superimpose $2\textrm{Er}$ deep optical lattice with $1.7\textrm{Er}$ deep DMD potential, resulting in the tunneling rate $J = 2 \pi \times 128 \textrm{Hz}$.
+
+\begin{figure*}[t]
+	\centering
+	\includegraphics[scale=1]{figures/CBH_HOM.pdf}
+	\caption{{\bf Encoding phase and amplitude information with a grating}. {\bf A} When a light with initial wave vector $K_0$ passes through an amplitude grating with period $d$, it's outgoing wave vector can be changed by any integer multiple of grating wave vector $K_g\propto \frac{1}{d}$. {\bf B} Tow patches with the grating of the same period $d$ but different duty cycles $q_1$ and $q_2$ are shown. Since the duty cycle determines how much light goes through, the intensity of the outgoing light is proportional to the duty cycle. The outgoing light also carries the information about the local phase of the grating, by imprinting it onto the phase of the outgoing electric field.}
+	\label{fig:CBH_HOM}
+\end{figure*}
+
+Initially the atoms are held in the deep $45 \textrm{Er}$ lattice, that suppresses  the tunneling. To enable the dynamics we rapidly change the lattice depth to $2\textrm{Er}$ in $0.5\textrm{ms}$. The state of the double-well with two particles can be described in the basis of three configurational states $\ket{1,1}$, $\ket{0,2}$, and $\ket{2,0}$, corresponding to different arrangements of atoms between the two wells. In our experiment we can measure the probability of the system being in each of those states $P(1,1)$, $P(0,2)$, and $P(2,0)$ as a function of evolution time by using atom number resolved state readout procedure (see fig.~\ref{fig:CBH_HOM}). As we expect, after evolution time $t= \frac{2 \pi}{8J}$ the probability of the state $\ket{1,1}$ goes almost to zero, whereas the probability of the states $\ket{0,2}$ and $\ket{2,0}$ are equal to each other. The residual $\sim 2\%$ probability of $\ket{1,1}$ state is likely due to the interaction assisted coupling to the higher bands in the axial direction of the lattice, that has relatively low trapping frequency \cite{Preiss thesis}. 
