@@ -27,7 +27,7 @@ ylabel('Depth (\it{Er})')
 xlim([-2 2])
 xticks([-1.5:1:1.5])
 % xticklabels({'0','^{1}/_{8}','^{1}/_{4}','^{3}/_{8}'})
-xlabel('Distnace (\it{lattice sites})')
+xlabel('Distance (\it{lattice sites})')
 
 set(gca, 'FontSize', 8, 'LineWidth', 1, 'FontName', 'Arial');
 
