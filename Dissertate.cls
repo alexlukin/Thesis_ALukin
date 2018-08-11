@@ -91,6 +91,7 @@
 \RequirePackage{url}
 \RequirePackage{amssymb}
 \RequirePackage{mathspec}
+%\usepackage{mathtools}
 \setmathsfont(Digits,Latin,Greek)[Numbers={Proportional}]{Cormorant}
 \setmathrm{Cormorant}
 \AtBeginEnvironment{tabular}{\addfontfeature{RawFeature=+tnum}}

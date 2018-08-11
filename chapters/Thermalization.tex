@@ -26,7 +26,7 @@ In the early days of quantum mechanics von Neumann noted that, when talking abou
 \begin{equation}
 O_{nm} = O(\bar{E}) \delta_{nm} + e^{-S(\bar{E})/2} f_O (\bar{E}, \omega) R_{nm},
 \end{equation}
-where $\bar{E} \equiv (E_n+E_m)/2$, $\omega \equiv E_n-E_m$ and $S(E)$ is thermodynamic entropy at energy $E$. Crucially, $O(E)$ and $f_O(E,ω)$ are smooth functions of their arguments, the value $O(E)$ is identical to the expectation value of the microcanonical ensemble at energy $E$ and $R_{mn}$ is a random real or complex variable with zero mean and unit variance. One important remarks should be made at this point: there are obvious exception form this rule, namely ground state and low lying eigenstates as well as the states on top of the spectrum. Taking this into account, we say that ETH holds for the eigenstates in the middle of the spectrum. 
+where $\bar{E} \equiv (E_n+E_m)/2$, $\omega \equiv E_n-E_m$ and $S(E)$ is thermodynamic entropy at energy $E$. Crucially, $O(E)$ and $f_O(E,\omega)$ are smooth functions of their arguments, the value $O(E)$ is identical to the expectation value of the microcanonical ensemble at energy $E$ and $R_{mn}$ is a random real or complex variable with zero mean and unit variance. One important remarks should be made at this point: there are obvious exception form this rule, namely ground state and low lying eigenstates as well as the states on top of the spectrum. Taking this into account, we say that ETH holds for the eigenstates in the middle of the spectrum. 
 
 \section{Quench dynamics of an isolated quantum system}
 
@@ -94,7 +94,7 @@ We can perform a more rigorous test of single-site thermalization by comparing t
 	\centering
 	\includegraphics[scale=1.5]{figures/ETH_fidelity.pdf}
 	\caption{{\bf Observation of local thermalization.} In measuring the probabilities to observe a given particle number on a single site, we can obtain the local, single-site density matrix and observe the approach to thermalization. Using two different metrics, we compare the mixed state observed to the mixed state derived from the subsystem of a canonical thermal ensemble, after a quench to $U/J=1.56$. The trace distance provides an effective distance between the mixed states in Hilbert space, while the fidelity is an overlap measure for mixed states. The two metrics illustrate how the pure state subsystem approaches the thermal ensemble subsystem shortly after the quench. The starting value of these quantities is given by the overlap of the initial pure state with the thermal mixed state. Solid lines connect the data points.}
-	\label{fig:local}
+	\label{fig:ETH_Rho}
 \end{figure} 
 
 One consequence of single site thermalization is that, for a thermal state individual sites look identical to one another. In a system with open boundary conditions it appears in a striking contrast with the ground states, that are trying to minimize there energy. As an example, we look at the average particle number distribution in our system (see fig.~\ref{fig:ETH_density}). While the ground state exhibits significant curvature, corresponding to the ground state solution of the Shr\"odinger equation for a particle in the box. The quenched state exhibits a flat density distribution, manifesting the indestructibility between different sites of the system.
@@ -103,7 +103,7 @@ One consequence of single site thermalization is that, for a thermal state indiv
 	\centering
 	\includegraphics[scale=1.5]{figures/ETH_density.pdf}
 	\caption{{\bf Observation of local thermalization.} {\bf(A)} After quenching to $U/J=0.38$, the saturated average particle number on each site (density) is nearly equal among the sites of the system, which resembles a system at thermal equilibrium. By comparison, the ground state for the same Bose-Hubbard parameters has significant curvature.}
-	\label{fig:local}
+	\label{fig:ETH_density}
 \end{figure} 
 
 \section{Global state purity}
