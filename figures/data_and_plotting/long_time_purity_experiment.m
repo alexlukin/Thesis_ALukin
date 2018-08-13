@@ -60,4 +60,4 @@ ax.Position = [left bottom ax_width ax_height];
 set(h, 'PaperUnits', 'centimeters')
 h.PaperPositionMode = 'auto'
 h.PaperSize = [figwidth fighight]
-print(h,'..\MBP_vs_time.pdf','-dpdf','-r0')
+print(h,'..\CBH_MBP_vs_time.pdf','-dpdf','-r0')
