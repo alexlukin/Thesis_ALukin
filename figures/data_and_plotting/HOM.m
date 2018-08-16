@@ -22,7 +22,7 @@ fitted2.tau = fitted.tau;
 
 h = figure(45236);
 
-figwidth = 11;
+figwidth = 9;
 fighight = figwidth/sqrt(2);
 set(h, 'Units', 'centimeters')
 h.Position(3) = figwidth;
@@ -42,16 +42,16 @@ hold off
 
 hold on
 l1 = errorbar(P11(:,1),P11(:,2),P11(:,3),...
-    'd', 'CapSize',0,'LineWidth',1.5,'MarkerFaceColor','w','markers',6,'Color',bryg(1,:))
+    'd', 'CapSize',0,'LineWidth',1.5,'MarkerFaceColor','w','markers',5,'Color',bryg(1,:))
 hold off
 
 hold on
 l2 = errorbar(P02(:,1),P02(:,2),P02(:,3),...
-    'o', 'CapSize',0,'LineWidth',1.5,'MarkerFaceColor','w','markers',6,'Color',bryg(2,:))
+    'o', 'CapSize',0,'LineWidth',1.5,'MarkerFaceColor','w','markers',5,'Color',bryg(2,:))
 hold off
 hold on
 l3 = errorbar(P20(:,1),P20(:,2),P20(:,3),...
-    's', 'CapSize',0,'LineWidth',1.5,'MarkerFaceColor','w','markers',6,'Color',bryg(2,:))
+    's', 'CapSize',0,'LineWidth',1.5,'MarkerFaceColor','w','markers',5,'Color',bryg(2,:))
 hold off
 
 hold on
@@ -89,4 +89,4 @@ ax.Position = [left bottom ax_width ax_height];
 set(h, 'PaperUnits', 'centimeters')
 h.PaperPositionMode = 'auto'
 h.PaperSize = [figwidth fighight]
-print(h,'C:\Users\Alex\Documents\Thesis_ALukin\figures\CBH_HOM.pdf','-dpdf','-r0')
+print(h,'..\CBH_HOM.pdf','-dpdf','-r0')
