@@ -21,7 +21,7 @@ axis image
 colormap(cmap_0413_insitu);
 % col = colorbar
 % col.Ticks = [0:.25:1].*1.3
-col.TickLabels = [0;0.25;0.5;0.75;1]
+% col.TickLabels = [0;0.25;0.5;0.75;1]
 set(gca,'xtick', linspace(0.5,length(xx1)+0.5,length(xx1)+1), 'ytick', linspace(0.5,length(yy1)+.5,length(yy1)+1));
 xticklabels([])
 yticklabels([])
