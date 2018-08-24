@@ -2,11 +2,6 @@
 \chapter{Fight fidelity initialization and readout}
 
 \section{Initial states with high fidelity}
-%Quantum mechanics gives us tools to study highly correlated system. The most famous example is an entangled Bell state \cite{something}, which can be written in the context of two spin $\frac{1}{2}$ particles as 
-%\begin{equation}
-%\left| \psi \right>=(\left| \uparrow \downarrow \right>+ \left| \downarrow \uparrow \right>)/\sqrt{2},
-%\end{equation}
-%where up and down arrows represent one of the two states of each spin. The remarkable property of this state is, that no matter which basis one would choose to measure both particles in, the results of the measurement will always be anti-correlated. This entanglement could further be utilized as a resource for a variety of application ranging from metrology and sensing \cite{sombody} to quantum computing \cite{Chuang book} and secure quantum communications \cite{something}. However those correlations are very fragile: addition of any amount of classical mixture of $\left| \uparrow \right>$ and $\left| \downarrow \right>$ states to any of the spins immediately destroys the perfect correlations between the two, that ultimately limits the practical applications of quantum techniques. In this chapter we will show, how using the single site control over the atoms in our quantum gas microscope, we can prepare and control highly entangled many-particle quantum systems, in particular in the context of quantum simulations. 
 
 Our goal is to study the dynamics of strongly correlated many-body systems. Due to the probabilistic nature of quantum mechanics, in order to learn information about a quantum state, one needs to have access to multiple copies of the same state. Then by doing repeated measurements, the probability distribution of occupation of each particular basis state can be obtained. This means, that we need a way to deterministically prepare the same state of the system with high fidelity. 
 
@@ -15,7 +10,7 @@ In order to achieve a state of interest, one can start with some easy-to-prepare
 \begin{figure*}[t]
 	\centering
 	\includegraphics[scale=1]{figures/CTE_MI.pdf}
-	\caption{{\bf Encoding phase and amplitude information with a grating}. {\bf A} When a light with initial wave vector $K_0$ passes through an amplitude grating with period $d$, it's outgoing wave vector can be changed by any integer multiple of grating wave vector $K_g\propto \frac{1}{d}$. {\bf B} Tow patches with the grating of the same period $d$ but different duty cycles $q_1$ and $q_2$ are shown. Since the duty cycle determines how much light goes through, the intensity of the outgoing light is proportional to the duty cycle. The outgoing light also carries the information about the local phase of the grating, by imprinting it onto the phase of the outgoing electric field.}
+	\caption{{\bf Density distribution in the Mott insulator}. {\bf A} Averaged image of a Mott insulator in the harmonic trap. Green represents the region with single particle per site. The dark ring in the middle corresponds to the doubly occupied sites, where particles are lost during imaging process due to light-assisted collisions. {\bf B} The density distribution of particles along the red line in A. Due to the finite temperature of the system, the sharp zero-temperature distribution (blue line) is smeared by the particle fluctuations.}
 	\label{fig:CTE_MI}
 \end{figure*}
 
@@ -28,7 +23,7 @@ In order to isolate a desired region of the lattice, we perform a so-called "cut
 \begin{figure*}[t]
 	\centering
 	\includegraphics[scale=1]{figures/CTE_cutting.pdf}
-	\caption{{\bf Encoding phase and amplitude information with a grating}. {\bf A} When a light with initial wave vector $K_0$ passes through an amplitude grating with period $d$, it's outgoing wave vector can be changed by any integer multiple of grating wave vector $K_g\propto \frac{1}{d}$. {\bf B} Tow patches with the grating of the same period $d$ but different duty cycles $q_1$ and $q_2$ are shown. Since the duty cycle determines how much light goes through, the intensity of the outgoing light is proportional to the duty cycle. The outgoing light also carries the information about the local phase of the grating, by imprinting it onto the phase of the outgoing electric field.}
+	\caption{{\bf Cutting procedure}. {\bf A} Averaged image of a Mott insulator in the harmonic trap. {\bf B} Using the DMD we project a potential that confines the desired number of lattice sites (in this case two) on top of the lattice, where the Mott insulator was originally created. By dropping the lattice and applying a slow-varying repulsive potential, centered on the DMD pattern, we expel all untrapped atoms. Finally the remaining atoms can be loaded back into the optical lattice. By applying this procedure along both direction we can prepare plaquettes of various sizes. {\bf C} A single shot image of a $2 \times 12$ plaquette cut from the region highlighted in A.}
 	\label{fig:CTE_cutting}
 \end{figure*}
 
@@ -37,7 +32,7 @@ By increasing the DMD beam power we could in principal initialize even longer ch
 \begin{figure*}[t]
 	\centering
 	\includegraphics[scale=1]{figures/CTE_MI_box.pdf}
-	\caption{{\bf Encoding phase and amplitude information with a grating}. {\bf A} When a light with initial wave vector $K_0$ passes through an amplitude grating with period $d$, it's outgoing wave vector can be changed by any integer multiple of grating wave vector $K_g\propto \frac{1}{d}$. {\bf B} Tow patches with the grating of the same period $d$ but different duty cycles $q_1$ and $q_2$ are shown. Since the duty cycle determines how much light goes through, the intensity of the outgoing light is proportional to the duty cycle. The outgoing light also carries the information about the local phase of the grating, by imprinting it onto the phase of the outgoing electric field.}
+	\caption{{\bf Mott Insulator in the box geometry.}. {\bf A} Using DMD to provide the $24$ sites-long box confinement in the $y-\mathrm{direction}$ and the magnetic field gradient in the $x-\mathrm{direction}$ we realize a Mott insulator in the box geometry. Average density distribution shows high fidelity $n=1$ shell.  {\bf B} A single shot image of the $2\times24$ sites system with a single defect cut form the highlighted region in A.}
 	\label{fig:CTE_MI_box}
 \end{figure*}
 
@@ -49,11 +44,11 @@ In our experiments we are interested in studying coherent quantum many-body dyna
 \begin{figure*}[t]
 	\centering
 	\includegraphics[scale=1]{figures/CTE_lifetime.pdf}
-	\caption{{\bf Encoding phase and amplitude information with a grating}. {\bf A} When a light with initial wave vector $K_0$ passes through an amplitude grating with period $d$, it's outgoing wave vector can be changed by any integer multiple of grating wave vector $K_g\propto \frac{1}{d}$. {\bf B} Tow patches with the grating of the same period $d$ but different duty cycles $q_1$ and $q_2$ are shown. Since the duty cycle determines how much light goes through, the intensity of the outgoing light is proportional to the duty cycle. The outgoing light also carries the information about the local phase of the grating, by imprinting it onto the phase of the outgoing electric field.}
+	\caption{{\bf Atoms life time}. Number of atoms in the harmonic trap as  a function of time. Solid line corresponds to the exponential fit to the data with the $\frac{1}{e}$ decay constant of $21.4(7) \mathrm{seconds}$}
 	\label{fig:CTE_liefetime}
 \end{figure*}
 
-In order to understand the effect of collisions with background gas one needs to consider the energy scales in the system. The typical depth of the optical potentials, that we use to confine our atoms, is on the order of $1 \mu \textrm{K}$. In contrast, since the vacuum chamber walls are at room temperature, the typical energy of the background gas is $300 \textrm{K}$. Hence, a collision between the atom within our system with a background gas atom will lead to the atom loss. This means, that by measuring the atom loss rate in our system, we can determine the timescale corresponding to this process. To measure it, we prepare atoms in a shallow harmonic optical trap and image them after variable amount of holding time (see fig.~\ref{fig:CTE_lifetime}). We measure a single particle $\frac{1}{e}$ decay time of of $21.4(7)\textrm{s}$ in our system. For a $10$ particles  evolving for $1\textrm{s}$ this results in $\sim 40\%$ probability of single particle loss, that would lead to decoherence in the system.
+In order to understand the effect of collisions with background gas one needs to consider the energy scales in the system. The typical depth of the optical potentials, that we use to confine our atoms, is on the order of $1 \mu \textrm{K}$. In contrast, since the vacuum chamber walls are at room temperature, the typical energy of the background gas is $300 \textrm{K}$. Hence, a collision between the atom within our system with a background gas atom will lead to the atom loss. This means, that by measuring the atom loss rate in our system, we can determine the timescale corresponding to this process. To measure it, we prepare atoms in a shallow harmonic optical trap and image them after variable amount of holding time (see fig.~\ref{fig:CTE_liefetime}). We measure a single particle $\frac{1}{e}$ decay time of of $21.4(7)\textrm{s}$ in our system. For a $10$ particles  evolving for $1\textrm{s}$ this results in $\sim 40\%$ probability of single particle loss, that would lead to decoherence in the system.
 
 However, if we work with the systems of fixed particle number, the above source of decoherence can be overcome in our experiments. The high fidelity initial state preparation allows us to start with a known number of atoms at the beginning of the experiment. If we could also determine the total number of atoms at the end of the sequence, we could discard the experimental runs in which the total atom number in the beginning and at the end are different. This procedure would eliminate the decoherence due to the atom loss at the expanse of the number of successful runs of the experiment.
 
@@ -69,7 +64,7 @@ where $n$ is the number of particles that start on the site in the beginning and
 \begin{figure*}[t]
 	\centering
 	\includegraphics[scale=1]{figures/CTE_fullcounting.pdf}
-	\caption{{\bf Encoding phase and amplitude information with a grating}. {\bf A} When a light with initial wave vector $K_0$ passes through an amplitude grating with period $d$, it's outgoing wave vector can be changed by any integer multiple of grating wave vector $K_g\propto \frac{1}{d}$. {\bf B} Tow patches with the grating of the same period $d$ but different duty cycles $q_1$ and $q_2$ are shown. Since the duty cycle determines how much light goes through, the intensity of the outgoing light is proportional to the duty cycle. The outgoing light also carries the information about the local phase of the grating, by imprinting it onto the phase of the outgoing electric field.}
+	\caption{{\bf Atom number resolved readout}. During the imaging process pairs of atoms are lost due the the light-assisted collisions, resulting in the parity projection of the single site occupations (left). For a $1\mathrm{D}$ system we can use the lattice transverse to the chain to expand individual lattice sites into the region of $\sim 80$ sites, such that the probability of multiple atoms occupying the same site is negligible. By counting the number of atoms in each tube we can reconstruct the atom number distribution along the chain.}
 	\label{fig:CTE_fullcounting}
 \end{figure*}
 
@@ -78,7 +73,7 @@ Although this technique is very powerful for isolated one dimensional systems, w
 \begin{figure*}[t]
 	\centering
 	\includegraphics[scale=1]{figures/CTE_expansion.pdf}
-	\caption{{\bf Encoding phase and amplitude information with a grating}. {\bf A} When a light with initial wave vector $K_0$ passes through an amplitude grating with period $d$, it's outgoing wave vector can be changed by any integer multiple of grating wave vector $K_g\propto \frac{1}{d}$. {\bf B} Tow patches with the grating of the same period $d$ but different duty cycles $q_1$ and $q_2$ are shown. Since the duty cycle determines how much light goes through, the intensity of the outgoing light is proportional to the duty cycle. The outgoing light also carries the information about the local phase of the grating, by imprinting it onto the phase of the outgoing electric field.}
+	\caption{{\bf Expansion of two adjacent lines}. Resulting average density distribution of atoms after a single step (top) and a two step (bottom) expansion process. For a single step process the atom's diffusion is slower then their center of mass momentum, hence the atoms expand much less as compared to the two step process, before they leave the field of view of the imaging system.}
 	\label{fig:CTE_expansion}
 \end{figure*}
 
