@@ -1,3 +1,788 @@
 \begin{thebibliography}{}
 
+\bibitem[Abanin et~al., 2018]{Abanin2018}
+Abanin, D.~A., Altman, E., Bloch, I., \& Serbyn, M. (2018).
+\newblock {Ergodicity, Entanglement and Many-Body Localization}.
+
+\bibitem[Agarwal et~al., 2017]{Agarwal2017}
+Agarwal, K., Altman, E., Demler, E., Gopalakrishnan, S., Huse, D.~A., \& Knap,
+  M. (2017).
+\newblock {Rare-region effects and dynamics near the many-body localization
+  transition}.
+\newblock {\em Annalen der Physik}, 529(7), 1600326.
+
+\bibitem[Agarwal et~al., 2015]{Agarwal2015}
+Agarwal, K., Gopalakrishnan, S., Knap, M., M{\"{u}}ller, M., \& Demler, E.
+  (2015).
+\newblock {Anomalous Diffusion and Griffiths Effects Near the Many-Body
+  Localization Transition}.
+\newblock {\em Physical Review Letters}, 114, 160401.
+
+\bibitem[Alba, 2015]{Alba2015}
+Alba, V. (2015).
+\newblock {Eigenstate thermalization hypothesis and integrability in quantum
+  spin chains}.
+\newblock {\em Physical Review B}, 91, 155123.
+
+\bibitem[Altman \& Vosk, 2015]{Altman2015}
+Altman, E. \& Vosk, R. (2015).
+\newblock {Universal Dynamics and Renormalization in Many-Body-Localized
+  Systems}.
+\newblock {\em Annual Review of Condensed Matter Physics}, 6, 383--409.
+
+\bibitem[Anderson et~al., 1995]{Anderson1995}
+Anderson, M.~H., Ensher, J.~R., Matthews, M.~R., Wieman, C.~E., \& Cornell,
+  E.~A. (1995).
+\newblock {Observation of bose-einstein condensation in a dilute atomic vapor.}
+\newblock {\em Science (New York, N.Y.)}, 269(5221), 198--201.
+
+\bibitem[Anderson, 1958]{Anderson1958}
+Anderson, P.~W. (1958).
+\newblock {Absence of Diffusion in Certain Random Lattices}.
+\newblock {\em Physical Review}, 109(5), 1492--1505.
+
+\bibitem[Aubry \& Andre, 1980]{Aubry1980}
+Aubry, S. \& Andre, G. (1980).
+\newblock {Analyticity breaking and Anderson localization in incommensurate
+  lattices}.
+\newblock {\em Ann. Israel Phys. Soc.}, 3, 133--164.
+
+\bibitem[Bakr, 2011]{BakrThesis}
+Bakr, W.~S. (2011).
+\newblock {\em {No Title}}.
+\newblock Phd thesis, Harvard University.
+
+\bibitem[Bakr et~al., 2009]{Bakr2009}
+Bakr, W.~S., Gillen, J.~I., Peng, A., F{\"{o}}lling, S., \& Greiner, M. (2009).
+\newblock {A quantum gas microscope for detecting single atoms in a
+  Hubbard-regime optical lattice}.
+\newblock {\em Nature}, 462, 74--77.
+
+\bibitem[Ba{\~{n}}uls et~al., 2017]{Banuls2017}
+Ba{\~{n}}uls, M.~C., Yao, N.~Y., Choi, S., Lukin, M.~D., \& Cirac, J.~I.
+  (2017).
+\newblock {Dynamics of quantum information in many-body localized systems}.
+\newblock {\em Physical Review B}, 96, 174201.
+
+\bibitem[Bardarson et~al., 2012]{Bardarson2012}
+Bardarson, J.~H., Pollmann, F., \& Moore, J.~E. (2012).
+\newblock {Unbounded Growth of Entanglement in Models of Many-Body
+  Localization}.
+\newblock {\em Physical Review Letters}, 109, 017202.
+
+\bibitem[Barredo et~al., 2016]{Barredo2016}
+Barredo, D., de~L{\'{e}}s{\'{e}}leuc, S., Lienhard, V., Lahaye, T., \&
+  Browaeys, A. (2016).
+\newblock {An atom-by-atom assembler of defect-free arbitrary two-dimensional
+  atomic arrays.}
+\newblock {\em Science (New York, N.Y.)}, 354(6315), 1021--1023.
+
+\bibitem[Basko et~al., 2006]{Basko2006}
+Basko, D., Aleiner, I., \& Altshuler, B. (2006).
+\newblock {Metal–insulator transition in a weakly interacting many-electron
+  system with localized single-particle states}.
+\newblock {\em Annals of Physics}, 321(5), 1126--1205.
+
+\bibitem[Becker et~al., 2010]{Becker2010}
+Becker, C., Soltan-Panahi, P., Kronj{\"{a}}ger, J., D{\"{o}}rscher, S., Bongs,
+  K., \& Sengstock, K. (2010).
+\newblock {Ultracold quantum gases in triangular optical lattices}.
+\newblock {\em New Journal of Physics}, 12(6), 065025.
+
+\bibitem[Bell, 1964]{Bell1964}
+Bell, J.~S. (1964).
+\newblock {On the Einstein Podolsky Rosen paradox}.
+\newblock {\em Physics Physique Fizika}, 1, 195--200.
+
+\bibitem[Bernien et~al., 2017]{Bernien2017}
+Bernien, H., Schwartz, S., Keesling, A., Levine, H., Omran, A., Pichler, H.,
+  Choi, S., Zibrov, A.~S., Endres, M., Greiner, M., Vuleti{\'{c}}, V., \&
+  Lukin, M.~D. (2017).
+\newblock {Probing many-body dynamics on a 51-atom quantum simulator}.
+\newblock {\em Nature}, 551, 579--584.
+
+\bibitem[Billy et~al., 2008]{Billy2008}
+Billy, J., Josse, V., Zuo, Z., Bernard, A., Hambrecht, B., Lugan, P.,
+  Cl{\'{e}}ment, D., Sanchez-Palencia, L., Bouyer, P., \& Aspect, A. (2008).
+\newblock {Direct observation of Anderson localization of matter waves in a
+  controlled disorder}.
+\newblock {\em Nature}, 453, 891--894.
+
+\bibitem[Bordia et~al., 2017]{Bordia2017}
+Bordia, P., L{\"{u}}schen, H., Schneider, U., Knap, M., \& Bloch, I. (2017).
+\newblock {Periodically driving a many-body localized quantum system}.
+\newblock {\em Nature Physics}, 13, 460--464.
+
+\bibitem[Bordia et~al., 2016]{Bordia2016}
+Bordia, P., L{\"{u}}schen, H.~P., Hodgman, S.~S., Schreiber, M., Bloch, I., \&
+  Schneider, U. (2016).
+\newblock {Coupling Identical one-dimensional Many-Body Localized Systems}.
+\newblock {\em Physical Review Letters}, 116, 140401.
+
+\bibitem[Boyer et~al., 2006]{Boyer2006}
+Boyer, V., Godun, R.~M., Smirne, G., Cassettari, D., Chandrashekar, C.~M., Deb,
+  A.~B., Laczik, Z.~J., \& Foot, C.~J. (2006).
+\newblock {Dynamic manipulation of Bose-Einstein condensates with a spatial
+  light modulator}.
+\newblock {\em Physical Review A}, 73(3), 031402.
+
+\bibitem[Broer et~al., 2004]{Broer2004}
+Broer, H.~W., Hoveijn, I., van Noort, M., Simo, C., \& Vegter, G. (2004).
+\newblock {The Parametrically Forced Pendulum: A Case Study in 1 1/2 Degree of
+  Freedom}.
+\newblock {\em Journal of Dynamics and Differential Equations}, 16(4),
+  897--947.
+
+\bibitem[Calabrese \& Cardy, 2004]{Calabrese2004}
+Calabrese, P. \& Cardy, J. (2004).
+\newblock {Entanglement entropy and quantum field theory}.
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment},
+  2004(06), P06002.
+
+\bibitem[Calabrese \& Cardy, 2005]{Calabrese2005}
+Calabrese, P. \& Cardy, J. (2005).
+\newblock {Evolution of entanglement entropy in one-dimensional systems}.
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment},
+  2005(04), P04010.
+
+\bibitem[Carpentier et~al., 2013]{Carpentier2013}
+Carpentier, A.~V., Fung, Y.~H., Sompet, P., Hilliard, A.~J., Walker, T.~G., \&
+  Andersen, M.~F. (2013).
+\newblock {Preparation of a single atom in an optical microtrap}.
+\newblock {\em Laser Physics Letters}, 10, 125501.
+
+\bibitem[Cheneau et~al., 2012]{Cheneau2012}
+Cheneau, M., Barmettler, P., Poletti, D., Endres, M., Schausz, P., Fukuhara,
+  T., Gross, C., Bloch, I., Kollath, C., \& Kuhr, S. (2012).
+\newblock {Light-cone-like spreading of correlations in a quantum many-body
+  system}.
+\newblock {\em Nature}, 481(7382), 484--487.
+
+\bibitem[Chin et~al., 2010]{Chin2010}
+Chin, C., Grimm, R., Julienne, P., \& Tiesinga, E. (2010).
+\newblock {Feshbach resonances in ultracold gases}.
+\newblock {\em Reviews of Modern Physics}, 82, 1225--1286.
+
+\bibitem[Chirikov, 1979]{Chirikov1979}
+Chirikov, B.~V. (1979).
+\newblock {A universal instability of many-dimensional oscillator systems}.
+\newblock {\em Physics Reports}, 52(5), 263--379.
+
+\bibitem[Chiu et~al., 2018]{Chiu2018}
+Chiu, C.~S., Ji, G., Mazurenko, A., Greif, D., \& Greiner, M. (2018).
+\newblock {Quantum State Engineering of a Hubbard System with Ultracold
+  Fermions}.
+\newblock {\em Physical Review Letters}, 120, 243201.
+
+\bibitem[Choi et~al., 2016]{Choi2016}
+Choi, J.-y., Hild, S., Zeiher, J., Schau{\ss}, P., Rubio-Abadal, A., Yefsah,
+  T., Khemani, V., Huse, D.~A., Bloch, I., \& Gross, C. (2016).
+\newblock {Exploring the many-body localization transition in two dimensions.}
+\newblock {\em Science (New York, N.Y.)}, 352(6293), 1547--52.
+
+\bibitem[Clos et~al., 2016]{Clos2016}
+Clos, G., Porras, D., Warring, U., \& Schaetz, T. (2016).
+\newblock {Time-Resolved Observation of Thermalization in an Isolated Quantum
+  System}.
+\newblock {\em Physical Review Letters}, 117, 170401.
+
+\bibitem[{D 'alessio} et~al., 2016]{Dalessio2016}
+{D 'alessio}, L., Kafri, Y., Polkovnikov, A., \& Rigol, M. (2016).
+\newblock {Review From Quantum Chaos and Eigenstate Thermalization to
+  Statistical Mechanics and Thermodynamics}.
+\newblock 65(3), 239--362.
+
+\bibitem[Daley et~al., 2012]{Daley2012}
+Daley, A.~J., Pichler, H., Schachenmayer, J., \& Zoller, P. (2012).
+\newblock {Measuring Entanglement Growth in Quench Dynamics of Bosons in an
+  Optical Lattice}.
+\newblock {\em Physical Review Letters}, 109(2), 020505.
+
+\bibitem[{De Roeck} \& Huveneers, 2017]{Roeck2017}
+{De Roeck}, W. \& Huveneers, F. (2017).
+\newblock {Stability and instability towards delocalization in many-body
+  localization systems}.
+\newblock {\em Physical Review B}, 95, 155129.
+
+\bibitem[D'Errico et~al., 2014]{DErrico2014}
+D'Errico, C., Lucioni, E., Tanzi, L., Gori, L., Roux, G., McCulloch, I.~P.,
+  Giamarchi, T., Inguscio, M., \& Modugno, G. (2014).
+\newblock {Observation of a Disordered Bosonic Insulator from Weak to Strong
+  Interactions}.
+\newblock {\em Physical Review Letters}, 113, 095301.
+
+\bibitem[Deutsch, 1991]{Deutsch1991}
+Deutsch, J.~M. (1991).
+\newblock {Quantum statistical mechanics in a closed system}.
+\newblock {\em Physical Review A}, 43(4), 2046--2049.
+
+\bibitem[Deutsch et~al., 2013]{Deutsch2013}
+Deutsch, J.~M., Li, H., \& Sharma, A. (2013).
+\newblock {Microscopic origin of thermodynamic entropy in isolated systems}.
+\newblock {\em Phys. Rev. E}, 87(4), 42135.
+
+\bibitem[Eisert et~al., 2015]{Eisert2015}
+Eisert, J., Friesdorf, M., \& Gogolin, C. (2015).
+\newblock {Quantum many-body systems out of equilibrium}.
+\newblock {\em Nat Phys}, 11(2), 124--130.
+
+\bibitem[Ekert et~al., 2002]{Ekert2002}
+Ekert, A.~K., {Moura Alves}, C., Oi, D. K.~L., Horodecki, M., Horodecki, P., \&
+  Kwek, L.~C. (2002).
+\newblock {Direct Estimations of Linear and Nonlinear Functionals of a Quantum
+  State}.
+
+\bibitem[Elben et~al., 2018]{Elben2017}
+Elben, A., Vermersch, B., Dalmonte, M., Cirac, J.~I., \& Zoller, P. (2018).
+\newblock {R{\'{e}}nyi Entropies from Random Quenches in Atomic Hubbard and
+  Spin Models}.
+\newblock {\em Physical Review Letters}, 120, 050406.
+
+\bibitem[Gadway et~al., 2011]{Gadway2011}
+Gadway, B., Pertot, D., Reeves, J., Vogt, M., \& Schneble, D. (2011).
+\newblock {Glassy Behavior in a Binary Atomic Mixture}.
+\newblock {\em Physical Review Letters}, 107, 145306.
+
+\bibitem[Garrison \& Grover, 2015]{Garrison2015}
+Garrison, J.~R. \& Grover, T. (2015).
+\newblock {Does a single eigenstate encode the full Hamiltonian?}
+\newblock {\em arXiv:1503.00729}.
+
+\bibitem[Gaunt \& Hadzibabic, 2012]{Gaunt2012}
+Gaunt, A.~L. \& Hadzibabic, Z. (2012).
+\newblock {Robust Digital Holography For Ultracold Atom Trapping}.
+\newblock {\em Scientific Reports}, 2(1), 721.
+
+\bibitem[Geiger et~al., 2014]{Geiger2014}
+Geiger, R., Langen, T., Mazets, I.~E., \& Schmiedmayer, J. (2014).
+\newblock {Local relaxation and light-cone-like propagation of correlations in
+  a trapped one-dimensional Bose gas}.
+\newblock {\em New Journal of Physics}, 16(5), 53034.
+
+\bibitem[Gerbier \& Castin, 2010]{Gerbier2010}
+Gerbier, F. \& Castin, Y. (2010).
+\newblock {Heating rates for an atom in a far-detuned optical lattice}.
+\newblock {\em Physical Review A}, 82, 013615.
+
+\bibitem[Gillen, 2009]{GillenThesis}
+Gillen, J.~I. (2009).
+\newblock {\em {The Quantum Gas Microscope}}.
+\newblock Phd thesis, Harvard.
+
+\bibitem[Goorden et~al., 2014]{Goorden2014}
+Goorden, S.~A., Bertolotti, J., \& Mosk, A.~P. (2014).
+\newblock {Superpixel-based spatial amplitude and phase modulation using a
+  digital micromirror device}.
+\newblock {\em Optics Express}, 22(15), 17999.
+
+\bibitem[Gornyi et~al., 2005]{Gornyi2005}
+Gornyi, I.~V., Mirlin, A.~D., \& Polyakov, D.~G. (2005).
+\newblock {Interacting Electrons in Disordered Wires: Anderson Localization and
+  Low- {\textless}math display="inline"{\textgreater}
+  {\textless}mi{\textgreater}T{\textless}/mi{\textgreater}
+  {\textless}/math{\textgreater} Transport}.
+\newblock {\em Physical Review Letters}, 95, 206603.
+
+\bibitem[Greif et~al., 2013]{Greif2013}
+Greif, D., Uehlinger, T., Jotzu, G., Tarruell, L., \& Esslinger, T. (2013).
+\newblock {Short-Range Quantum Magnetism of Ultracold Fermions in an Optical
+  Lattice}.
+\newblock {\em Science}, 340(6138), 1307--1310.
+
+\bibitem[Greiner et~al., 2002]{Greiner2002}
+Greiner, M., Mandel, O., Esslinger, T., Hansch, T.~W., \& Bloch, I. (2002).
+\newblock {Quantum phase transition from a superfluid to a Mott insulator in a
+  gas of ultracold atoms}.
+\newblock {\em Nature}, 415(6867), 39--44.
+
+\bibitem[Grover \& Fisher, 2015]{Grover2015}
+Grover, T. \& Fisher, M. P.~A. (2015).
+\newblock {Entanglement and the sign structure of quantum states}.
+\newblock {\em Phys. Rev. A}, 92, 42308.
+
+\bibitem[Hazzard et~al., 2014]{Hazzard2014}
+Hazzard, K. R.~A., van~den Worm, M., Foss-Feig, M., Manmana, S.~R., {Dalla
+  Torre}, E.~G., Pfau, T., Kastner, M., \& Rey, A.~M. (2014).
+\newblock {Quantum correlations and entanglement in far-from-equilibrium spin
+  systems}.
+\newblock {\em Phys. Rev. A}, 90(6), 63622.
+
+\bibitem[Ho \& Zhou, 2009]{Ho2009}
+Ho, T.-L. \& Zhou, Q. (2009).
+\newblock {Squeezing out the entropy of fermions in optical lattices.}
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 106(17), 6916--20.
+
+\bibitem[Hong et~al., 1987]{Hong1987}
+Hong, C.~K., Ou, Z.~Y., \& Mandel, L. (1987).
+\newblock {Measurement of subpicosecond time intervals between two photons by
+  interference}.
+\newblock {\em Physical Review Letters}, 59, 2044--2046.
+
+\bibitem[Horodecki \& Horodecki, 1996]{Horodecki1996}
+Horodecki, R. \& Horodecki, M. (1996).
+\newblock {Information-theoretic aspects of inseparability of mixed states}.
+\newblock {\em Physical Review A}, 54, 1838--1843.
+
+\bibitem[Horodecki et~al., 2009]{Horodecki2009}
+Horodecki, R., Horodecki, P., Horodecki, M., \& Horodecki, K. (2009).
+\newblock {Quantum entanglement}.
+\newblock {\em Reviews of Modern Physics}, 81(2), 865--942.
+
+\bibitem[Hu et~al., 2018]{Hu2018}
+Hu, X., Zhao, Q., Yu, P., Li, X., Wang, Z., Li, Y., \& Gong, L. (2018).
+\newblock {Dynamic shaping of orbital-angular-momentum beams for information
+  encoding}.
+\newblock {\em Optics Express}, 26(2), 1796.
+
+\bibitem[Huse et~al., 2014]{Huse2014}
+Huse, D.~A., Nandkishore, R., \& Oganesyan, V. (2014).
+\newblock {Phenomenology of fully many-body-localized systems}.
+\newblock {\em Physical Review B}, 90, 174202.
+
+\bibitem[Husmann et~al., 2015]{Husmann2015}
+Husmann, D., Uchino, S., Krinner, S., Lebrat, M., Giamarchi, T., Esslinger, T.,
+  \& Brantut, J.-P. (2015).
+\newblock {Connecting strongly correlated superfluids by a quantum point
+  contact.}
+\newblock {\em Science (New York, N.Y.)}, 350(6267), 1498--501.
+
+\bibitem[Imbrie, 2016]{Imbrie2016}
+Imbrie, J.~Z. (2016).
+\newblock {\em {On Many-Body Localization for Quantum Spin Chains}}, volume
+  163.
+\newblock Springer US.
+
+\bibitem[Islam et~al., 2015]{Islam2015}
+Islam, R., Ma, R., Preiss, P.~M., {Eric Tai}, M., Lukin, A., Rispoli, M., \&
+  Greiner, M. (2015).
+\newblock {Measuring entanglement entropy in a quantum many-body system}.
+\newblock {\em Nature}, 528, 77--83.
+
+\bibitem[Iyer et~al., 2013]{Iyer2013}
+Iyer, S., Oganesyan, V., Refael, G., \& Huse, D.~A. (2013).
+\newblock {Many-body localization in a quasiperiodic system}.
+\newblock {\em Physical Review B}, 87, 134202.
+
+\bibitem[Jendrzejewski et~al., 2012]{Jendrzejewski2012}
+Jendrzejewski, F., Bernard, A., M{\"{u}}ller, K., Cheinet, P., Josse, V.,
+  Piraud, M., Pezz{\'{e}}, L., Sanchez-Palencia, L., Aspect, A., \& Bouyer, P.
+  (2012).
+\newblock {Three-dimensional localization of ultracold atoms in an optical
+  disordered potential}.
+\newblock {\em Nature Physics}, 8, 398--403.
+
+\bibitem[Jensen \& Shankar, 1985]{Shankar1985}
+Jensen, R.~V. \& Shankar, R. (1985).
+\newblock {Statistical Behavior in Deterministic Quantum Systems with Few
+  Degrees of Freedom}.
+\newblock {\em Phys. Rev. Lett.}, 54(17), 1879--1882.
+
+\bibitem[Jo et~al., 2012]{Jo2012}
+Jo, G.-B., Guzman, J., Thomas, C.~K., Hosur, P., Vishwanath, A., \&
+  Stamper-Kurn, D.~M. (2012).
+\newblock {Ultracold Atoms in a Tunable Optical Kagome Lattice}.
+\newblock {\em Physical Review Letters}, 108, 045305.
+
+\bibitem[Kaufman et~al., 2012]{Kaufman2012}
+Kaufman, A.~M., Lester, B.~J., \& Regal, C.~A. (2012).
+\newblock {Cooling a Single Atom in an Optical Tweezer to Its Quantum Ground
+  State}.
+\newblock {\em Physical Review X}, 2, 041014.
+
+\bibitem[Kaufman et~al., 2014]{Kaufman2014}
+Kaufman, A.~M., Lester, B.~J., Reynolds, C.~M., Wall, M.~L., Foss-Feig, M.,
+  Hazzard, K. R.~A., Rey, A.~M., \& Regal, C.~A. (2014).
+\newblock {Two-particle quantum interference in tunnel-coupled optical
+  tweezers.}
+\newblock {\em Science (New York, N.Y.)}, 345(6194), 306--9.
+
+\bibitem[Kaufman et~al., 2016]{Kaufman2016}
+Kaufman, A.~M., Tai, M.~E., Lukin, A., Rispoli, M., Schittko, R., Preiss,
+  P.~M., \& Greiner, M. (2016).
+\newblock {Quantum thermalization through entanglement in an isolated many-body
+  system}.
+\newblock {\em Science}, 353(6301), 794--800.
+
+\bibitem[Khemani et~al., 2017]{Khemani2017}
+Khemani, V., Lim, S.~P., Sheng, D.~N., \& Huse, D.~A. (2017).
+\newblock {Critical Properties of the Many-Body Localization Transition}.
+\newblock {\em Physical Review X}, 7, 021013.
+
+\bibitem[Kondov et~al., 2015]{Kondov2015}
+Kondov, S.~S., McGehee, W.~R., Xu, W., \& DeMarco, B. (2015).
+\newblock {Disorder-Induced Localization in a Strongly Correlated Atomic
+  Hubbard Gas}.
+\newblock {\em Physical Review Letters}, 114, 083002.
+
+\bibitem[Kondov et~al., 2011]{Kondov2011}
+Kondov, S.~S., McGehee, W.~R., Zirbel, J.~J., \& DeMarco, B. (2011).
+\newblock {Three-Dimensional Anderson Localization of Ultracold Matter}.
+\newblock {\em Science}, 334(6052), 66--68.
+
+\bibitem[Lahini et~al., 2008]{Lahini2008}
+Lahini, Y., Avidan, A., Pozzi, F., Sorel, M., Morandotti, R., Christodoulides,
+  D.~N., \& Silberberg, Y. (2008).
+\newblock {Anderson Localization and Nonlinearity in One-Dimensional Disordered
+  Photonic Lattices}.
+\newblock {\em Physical Review Letters}, 100, 013906.
+
+\bibitem[Langen et~al., 2015]{Langen2015}
+Langen, T., Erne, S., Geiger, R., Rauer, B., Schweigler, T., Kuhnert, M.,
+  Rohringer, W., Mazets, I.~E., Gasenzer, T., \& Schmiedmayer, J. (2015).
+\newblock {Experimental observation of a generalized Gibbs ensemble}.
+\newblock {\em Science}, 348(6231), 207--211.
+
+\bibitem[Langen et~al., 2013]{Langen2013}
+Langen, T., Geiger, R., Kuhnert, M., Rauer, B., \& Schmiedmayer, J. (2013).
+\newblock {Local emergence of thermal correlations in an isolated quantum
+  many-body system}.
+\newblock {\em Nat Phys}, 9(10), 640--643.
+
+\bibitem[Lee, 1970]{Lee1970}
+Lee, W.~H. (1970).
+\newblock {Sampled Fourier Transform Hologram Generated by Computer}.
+\newblock {\em Applied Optics}, 9(3), 639.
+
+\bibitem[Lichtenberg \& Lieberman, 1992]{Lichtenberg1992}
+Lichtenberg, A. \& Lieberman, M. (1992).
+\newblock {\em {Regular and Chaotic Dynamics}}, volume~38 of {\em Applied
+  Mathematical Sciences}.
+\newblock New York, NY: Springer New York.
+
+\bibitem[Lopes et~al., 2015]{Lopes2015}
+Lopes, R., Imanaliev, A., Aspect, A., Cheneau, M., Boiron, D., \& Westbrook,
+  C.~I. (2015).
+\newblock {Atomic Hong–Ou–Mandel experiment}.
+\newblock {\em Nature}, 520(7545), 66--68.
+
+\bibitem[Luitz et~al., 2017]{Luitz2017}
+Luitz, D.~J., Huveneers, F., \& {De Roeck}, W. (2017).
+\newblock {How a Small Quantum Bath Can Thermalize Long Localized Chains}.
+\newblock {\em Physical Review Letters}, 119, 150602.
+
+\bibitem[L{\"{u}}schen et~al., 2017a]{Lueschen2017}
+L{\"{u}}schen, H.~P., Bordia, P., Hodgman, S.~S., Schreiber, M., Sarkar, S.,
+  Daley, A.~J., Fischer, M.~H., Altman, E., Bloch, I., \& Schneider, U.
+  (2017a).
+\newblock {Signatures of Many-Body Localization in a Controlled Open Quantum
+  System}.
+\newblock {\em Physical Review X}, 7, 011034.
+
+\bibitem[L{\"{u}}schen et~al., 2017b]{Lueschen2017a}
+L{\"{u}}schen, H.~P., Bordia, P., Scherg, S., Alet, F., Altman, E., Schneider,
+  U., \& Bloch, I. (2017b).
+\newblock {Observation of Slow Dynamics near the Many-Body Localization
+  Transition in One-Dimensional Quasiperiodic Systems}.
+\newblock {\em Physical Review Letters}, 119, 260401.
+
+\bibitem[Ma, ]{MaThesis}
+Ma, R.
+\newblock {\em {Engineered potentials and dynamics of ultracold quantum gases
+  under the microscope}}.
+\newblock Phd thesis, Harvard University.
+
+\bibitem[Ma et~al., 2011]{Ma2011}
+Ma, R., Tai, M.~E., Preiss, P.~M., Bakr, W.~S., Simon, J., \& Greiner, M.
+  (2011).
+\newblock {Photon-Assisted Tunneling in a Biased Strongly Correlated Bose Gas}.
+\newblock {\em Physical Review Letters}, 107, 095301.
+
+\bibitem[Ma, 1985]{Ma1985}
+Ma, S.~K. (1985).
+\newblock {\em {Statistical Mechanics}}.
+\newblock Singapore: World Scientific.
+
+\bibitem[Mazets et~al., 2008]{Mazets2008}
+Mazets, I.~E., Schumm, T., \& Schmiedmayer, J. (2008).
+\newblock {Breakdown of Integrability in a Quasi-1D Ultracold Bosonic Gas}.
+\newblock {\em Physical Review Letters}, 100, 210403.
+
+\bibitem[Mazurenko, ]{MarurenkoThesis}
+Mazurenko, A.
+\newblock {\em {Probing Long Range Antiferromagnetism and Dynamics in the
+  Fermi-Hubbard Model}}.
+\newblock Phd thesis, Harvard University.
+
+\bibitem[Mazurenko et~al., 2017]{Mazurenko2017}
+Mazurenko, A., Chiu, C.~S., Ji, G., Parsons, M.~F., Kan{\'{a}}sz-Nagy, M.,
+  Schmidt, R., Grusdt, F., Demler, E., Greif, D., \& Greiner, M. (2017).
+\newblock {A cold-atom Fermi–Hubbard antiferromagnet}.
+\newblock {\em Nature}, 545, 462--466.
+
+\bibitem[Mintert \& Buchleitner, 2007]{Mintert2007}
+Mintert, F. \& Buchleitner, A. (2007).
+\newblock {Observable Entanglement Measure for Mixed Quantum States}.
+\newblock {\em Physical Review Letters}, 98, 140505.
+
+\bibitem[{Moura Alves} \& Jaksch, 2004]{Alves2004}
+{Moura Alves}, C. \& Jaksch, D. (2004).
+\newblock {Multipartite Entanglement Detection in Bosons}.
+\newblock {\em Physical Review Letters}, 93(11), 110501.
+
+\bibitem[Nandkishore \& Gopalakrishnan, 2017]{Nandkishore2017}
+Nandkishore, R. \& Gopalakrishnan, S. (2017).
+\newblock {Many body localized systems weakly coupled to baths}.
+\newblock {\em Annalen der Physik}, 529(7), 1600181.
+
+\bibitem[Nandkishore \& Huse, 2015]{Nandkishore2015}
+Nandkishore, R. \& Huse, D.~A. (2015).
+\newblock {Many-Body Localization and Thermalization in Quantum Statistical
+  Mechanics}.
+\newblock {\em Annual Review of Condensed Matter Physics}, 6, 15--38.
+
+\bibitem[Neill et~al., 2016]{Neill2016}
+Neill, C., Roushan, P., Fang, M., Chen, Y., Kolodrubetz, M., Chen, Z., Megrant,
+  A., Barends, R., Campbell, B., Chiaro, B., Dunsworth, A., Jeffrey, E., Kelly,
+  J., Mutus, J., O'Malley, P. J.~J., Quintana, C., Sank, D., Vainsencher, A.,
+  Wenner, J., White, T.~C., Polkovnikov, A., \& Martinis, J.~M. (2016).
+\newblock {Ergodic dynamics and thermalization in an isolated quantum system}.
+\newblock {\em Nature Physics}, 12, 1037--1041.
+
+\bibitem[Nogrette et~al., 2014]{Nogrette2014}
+Nogrette, F., Labuhn, H., Ravets, S., Barredo, D., B{\'{e}}guin, L., Vernier,
+  A., Lahaye, T., \& Browaeys, A. (2014).
+\newblock {Single-Atom Trapping in Holographic 2D Arrays of Microtraps with
+  Arbitrary Geometries}.
+\newblock {\em Physical Review X}, 4(2), 021034.
+
+\bibitem[Oganesyan \& Huse, 2007]{Oganesyan2007}
+Oganesyan, V. \& Huse, D.~A. (2007).
+\newblock {Localization of interacting fermions at high temperature}.
+\newblock {\em Physical Review B}, 75, 155111.
+
+\bibitem[Palmer et~al., 2005]{Palmer2005}
+Palmer, R.~N., {Moura Alves}, C., \& Jaksch, D. (2005).
+\newblock {Detection and characterization of multipartite entanglement in
+  optical lattices}.
+\newblock {\em Phys. Rev. A}, 72, 42335.
+
+\bibitem[Peng, 2010]{PengThesis}
+Peng, A. W.-C. (2010).
+\newblock {\em {Quantum Gas Microscope With Optical Lattice}}.
+\newblock Phd thesis, Harvard University.
+
+\bibitem[Penrose, 1970]{Penrose1970}
+Penrose, O.~O. (1970).
+\newblock {\em {Foundations of statistical mechanics}}.
+\newblock Penrose1970.
+
+\bibitem[Pichler et~al., 2010]{Pichler2010}
+Pichler, H., Daley, A.~J., \& Zoller, P. (2010).
+\newblock {Nonequilibrium dynamics of bosonic atoms in optical lattices:
+  Decoherence of many-body states due to spontaneous emission}.
+\newblock {\em Physical Review A}, 82, 063605.
+
+\bibitem[Potter et~al., 2015]{Potter2015}
+Potter, A.~C., Vasseur, R., \& Parameswaran, S.~A. (2015).
+\newblock {Universal Properties of Many-Body Delocalization Transitions}.
+\newblock {\em Physical Review X}, 5, 031033.
+
+\bibitem[Preiss, ]{PreissThesis}
+Preiss, P.~M.
+\newblock {\em {Atomic Bose-Hubbard Systems with Single-Particle Control}}.
+\newblock Phd thesis, Harvard University.
+
+\bibitem[Preiss et~al., 2015]{Preiss2015}
+Preiss, P.~M., Ma, R., Tai, M.~E., Lukin, A., Rispoli, M., Zupancic, P.,
+  Lahini, Y., Islam, R., \& Greiner, M. (2015).
+\newblock {Strongly correlated quantum walks in optical lattices}.
+\newblock {\em Science}, 347(6227), 1229--1233.
+
+\bibitem[Regal et~al., 2004]{Regal2004}
+Regal, C.~A., Greiner, M., \& Jin, D.~S. (2004).
+\newblock {Observation of Resonance Condensation of Fermionic Atom Pairs}.
+\newblock {\em Physical Review Letters}, 92, 040403.
+
+\bibitem[Richerme et~al., 2014]{Richerme2014}
+Richerme, P., Gong, Z.-X., Lee, A., Senko, C., Smith, J., Foss-Feig, M.,
+  Michalakis, S., Gorshkov, A.~V., \& Monroe, C. (2014).
+\newblock {Non-local propagation of correlations in quantum systems with
+  long-range interactions}.
+\newblock {\em Nature}, 511, 198--201.
+
+\bibitem[Rigol et~al., 2008]{Rigol2008}
+Rigol, M., Dunjko, V., \& Olshanii, M. (2008).
+\newblock {Thermalization and its mechanism for generic isolated quantum
+  systems}.
+\newblock {\em Nature}, 452, 854--858.
+
+\bibitem[Rivas et~al., 2010]{Rivas2010}
+Rivas, {\'{A}}., Huelga, S.~F., \& Plenio, M.~B. (2010).
+\newblock {Entanglement and Non-Markovianity of Quantum Evolutions}.
+\newblock {\em Physical Review Letters}, 105, 050403.
+
+\bibitem[Roati et~al., 2008]{Roati2008}
+Roati, G., D'Errico, C., Fallani, L., Fattori, M., Fort, C., Zaccanti, M.,
+  Modugno, G., Modugno, M., \& Inguscio, M. (2008).
+\newblock {Anderson localization of a non-interacting Bose–Einstein
+  condensate}.
+\newblock {\em Nature}, 453, 895--898.
+
+\bibitem[Sachdev, 2011]{Sachdev2011}
+Sachdev, S. (2011).
+\newblock {\em {Quantum Phase Transitions}}.
+\newblock Cambridge: Cambridge University Press.
+
+\bibitem[Sackett et~al., 2000]{Sackett2000}
+Sackett, C.~A., Kielpinski, D., King, B.~E., Langer, C., Meyer, V., Myatt,
+  C.~J., Rowe, M., Turchette, Q.~A., Itano, W.~M., Wineland, D.~J., \& Monroe,
+  C. (2000).
+\newblock {Experimental entanglement of four particles}.
+\newblock {\em Nature}, 404(6775), 256--259.
+
+\bibitem[Santos et~al., 2012a]{Santos2012}
+Santos, L.~F., Polkovnikov, A., \& Rigol, M. (2012a).
+\newblock {Weak and strong typicality in quantum systems}.
+\newblock {\em Physical Review E}, 86, 010102.
+
+\bibitem[Santos et~al., 2012b]{Rigol2012}
+Santos, L.~F., Polkovnikov, A., \& Rigol, M. (2012b).
+\newblock {Weak and strong typicality in quantum systems}.
+\newblock {\em Phys. Rev. E}, 86, 10102.
+
+\bibitem[Schachenmayer et~al., 2013]{Schachenmayer2013}
+Schachenmayer, J., Lanyon, B.~P., Roos, C.~F., \& Daley, A.~J. (2013).
+\newblock {Entanglement Growth in Quench Dynamics with Variable Range
+  Interactions}.
+\newblock {\em Phys. Rev. X}, 3, 31015.
+
+\bibitem[Schreiber et~al., 2015]{Schreiber2015}
+Schreiber, M., Hodgman, S.~S., Bordia, P., Luschen, H.~P., Fischer, M.~H.,
+  Vosk, R., Altman, E., Schneider, U., \& Bloch, I. (2015).
+\newblock {Observation of many-body localization of interacting fermions in a
+  quasirandom optical lattice}.
+\newblock {\em Science}, 349(6250), 842--845.
+
+\bibitem[Schwartz et~al., 2007]{Schwartz2007}
+Schwartz, T., Bartal, G., Fishman, S., \& Segev, M. (2007).
+\newblock {Transport and Anderson localization in disordered two-dimensional
+  photonic lattices}.
+\newblock {\em Nature}, 446, 52--55.
+
+\bibitem[Semeghini et~al., 2015]{Semeghini2015}
+Semeghini, G., Landini, M., Castilho, P., Roy, S., Spagnolli, G., Trenkwalder,
+  A., Fattori, M., Inguscio, M., \& Modugno, G. (2015).
+\newblock {Measurement of the mobility edge for 3D Anderson localization}.
+\newblock {\em Nature Physics}, 11, 554--559.
+
+\bibitem[Serbyn et~al., 2013a]{Serbyn2013a}
+Serbyn, M., Papi{\'{c}}, Z., \& Abanin, D.~A. (2013a).
+\newblock {Local Conservation Laws and the Structure of the Many-Body Localized
+  States}.
+\newblock {\em Physical Review Letters}, 111, 127201.
+
+\bibitem[Serbyn et~al., 2013b]{Serbyn2013}
+Serbyn, M., Papi{\'{c}}, Z., \& Abanin, D.~A. (2013b).
+\newblock {Universal Slow Growth of Entanglement in Interacting Strongly
+  Disordered Systems}.
+\newblock {\em Physical Review Letters}, 110, 260601.
+
+\bibitem[Sherson et~al., 2010]{Sherson2010}
+Sherson, J.~F., Weitenberg, C., Endres, M., Cheneau, M., Bloch, I., \& Kuhr, S.
+  (2010).
+\newblock {Single-atom-resolved fluorescence imaging of an atomic Mott
+  insulator}.
+\newblock {\em Nature}, 467, 68--72.
+
+\bibitem[Simon et~al., 2011]{Simon2011}
+Simon, J., Bakr, W.~S., Ma, R., Tai, M.~E., Preiss, P.~M., \& Greiner, M.
+  (2011).
+\newblock {Quantum simulation of antiferromagnetic spin chains in an optical
+  lattice}.
+\newblock {\em Nature}, 472, 307--312.
+
+\bibitem[Smith et~al., 2016]{Smith2015}
+Smith, J., Lee, A., Richerme, P., Neyenhuis, B., Hess, P.~W., Hauke, P., Heyl,
+  M., Huse, D.~A., \& Monroe, C. (2016).
+\newblock {Many-body localization in a quantum simulator with programmable
+  random disorder}.
+\newblock {\em Nature Physics}, 12, 907--911.
+
+\bibitem[Srednicki, 1994]{Srednicki1994}
+Srednicki, M. (1994).
+\newblock {Chaos and quantum thermalization}.
+\newblock {\em Physical Review E}, 50, 888--901.
+
+\bibitem[Srednicki, 1999]{Srednicki1999}
+Srednicki, M. (1999).
+\newblock {The approach to thermal equilibrium in quantized chaotic systems}.
+\newblock {\em Journal of Physics A: Mathematical and General}, 32(7),
+  1163--1175.
+
+\bibitem[Suominen, 1996]{Suominen1996}
+Suominen, K.-A. (1996).
+\newblock {Theories for cold atomic collisions in light fields}.
+\newblock {\em Journal of Physics B: Atomic, Molecular and Optical Physics},
+  29(24), 5981--6007.
+
+\bibitem[Tang et~al., 2018]{Tang2018}
+Tang, Y., Kao, W., Li, K.-Y., Seo, S., Mallayya, K., Rigol, M., Gopalakrishnan,
+  S., \& Lev, B.~L. (2018).
+\newblock {Thermalization near Integrability in a Dipolar Quantum Newton's
+  Cradle}.
+\newblock {\em Physical Review X}, 8, 021030.
+
+\bibitem[Thompson et~al., 2013]{Thompson2013}
+Thompson, J.~D., Tiecke, T.~G., Zibrov, A.~S., Vuleti{\'{c}}, V., \& Lukin,
+  M.~D. (2013).
+\newblock {Coherence and Raman Sideband Cooling of a Single Atom in an Optical
+  Tweezer}.
+\newblock {\em Physical Review Letters}, 110, 133001.
+
+\bibitem[Trotzky et~al., 2012]{Trotzky2012}
+Trotzky, S., Chen, Y.-A., Flesch, A., McCulloch, I.~P., Schollwock, U., Eisert,
+  J., \& Bloch, I. (2012).
+\newblock {Probing the relaxation towards equilibrium in an isolated strongly
+  correlated one-dimensional Bose gas}.
+\newblock {\em Nat Phys}, 8, 325--330.
+
+\bibitem[Valtolina et~al., 2015]{Valtolina2015}
+Valtolina, G., Burchianti, A., Amico, A., Neri, E., Xhani, K., Seman, J.~A.,
+  Trombettoni, A., Smerzi, A., Zaccanti, M., Inguscio, M., \& Roati, G. (2015).
+\newblock {Josephson effect in fermionic superfluids across the BEC-BCS
+  crossover.}
+\newblock {\em Science (New York, N.Y.)}, 350(6267), 1505--8.
+
+\bibitem[Vosk et~al., 2015]{Vosk2015}
+Vosk, R., Huse, D.~A., \& Altman, E. (2015).
+\newblock {Theory of the Many-Body Localization Transition in One-Dimensional
+  Systems}.
+\newblock {\em Physical Review X}, 5, 031032.
+
+\bibitem[Weitenberg et~al., 2011]{Weitenberg2011}
+Weitenberg, C., Endres, M., Sherson, J.~F., Cheneau, M., Schau{\ss}, P.,
+  Fukuhara, T., Bloch, I., \& Kuhr, S. (2011).
+\newblock {Single-spin addressing in an atomic Mott insulator}.
+\newblock {\em Nature}, 471, 319--324.
+
+\bibitem[Wiersma et~al., 1997]{Wiersma1997}
+Wiersma, D.~S., Bartolini, P., Lagendijk, A., \& Righini, R. (1997).
+\newblock {Localization of light in a disordered medium}.
+\newblock {\em Nature}, 390, 671--673.
+
+\bibitem[Wolf et~al., 2008]{Wolf2008}
+Wolf, M.~M., Verstraete, F., Hastings, M.~B., \& Cirac, J.~I. (2008).
+\newblock {Area Laws in Quantum Systems: Mutual Information and Correlations}.
+\newblock {\em Physical Review Letters}, 100, 070502.
+
+\bibitem[{\v{Z}}nidari{\v{c}} et~al., 2008]{Znidaric2008}
+{\v{Z}}nidari{\v{c}}, M., Prosen, T., \& Prelov{\v{s}}ek, P. (2008).
+\newblock {Many-body localization in the Heisenberg XXZ magnet in a random
+  field}.
+\newblock {\em Physical Review B}, 77, 064426.
+
+\bibitem[Zupancic, 2013]{ZupancicThesis}
+Zupancic, P. (2013).
+\newblock {\em {Dynamic Holography and Beamshaping using Digital Micromirror
+  Devices}}.
+\newblock Master's thesis, Ludwig-Maximilians-Universitat Munchen.
+
+\bibitem[Zupancic et~al., 2016]{Zupancic2016}
+Zupancic, P., Preiss, P.~M., Ma, R., Lukin, A., {Eric Tai}, M., Rispoli, M.,
+  Islam, R., \& Greiner, M. (2016).
+\newblock {Ultra-precise holographic beam shaping for microscopic quantum
+  control}.
+\newblock {\em Optics Express}, 24(13), 13881.
+
 \end{thebibliography}
