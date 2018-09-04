@@ -22,6 +22,12 @@ We study these many-body dynamics by probing the entanglement properties of an M
 
 \section{Disorder potential}
 
+\begin{figure}[t]
+	\centering
+	\includegraphics{figures/MBL_setup.pdf}
+	\caption{\label{fig:MBL_model} \textbf{Experimental system.} We realize interacting Aubry-Andr\'e model, which is parametrized by the tunnelling rate $J/\hbar$, on-site interaction energy $U$ and quasi-periodic potential with amplitude $W$.}
+\end{figure}
+
 The properties of a system (especially a finite-size one) can can be altered due to the presence of so called rare regions \cite{Agarwal2015, Agarwal2017, Roeck2017, Luitz2017, Nandkishore2017}, when multiple sites next to each other have the same chemical potential. In order to avoid this issue, we chose to study the system, where disorder is given by the periodic potential with incommensurate period with respect to the lattice spacing, realizing interacting Aubry-Andr\'e model for bosons in one dimension \cite{Aubry1980, Iyer2013}, which is described by the Hamiltonian
 \begin{equation}
 \hat{\mathcal{H}} =  -J \sum_i \left(\hat{a}_i^\dagger\hat{a}_{i+1} + h.c.\right) 
@@ -73,7 +79,7 @@ In our experiment, we use $200$ different disorder patterns. Calibrating each on
 \begin{figure}[t]
 	\centering
 	\includegraphics{figures/MBL_disorder_cal_roi.pdf}
-	\caption{\label{fig:roi_cal} \textbf {Relative potential offsets within one pattern.} In order to benchmark the applied disorder potential, we compare the measured site offsets within one pattern to the numerical Fourier transform of the corresponding hologram (dotted line). The agreement between the data and numerical prediction confirms the high level of control over the applied optical potential. The relative potential offsets (both data and numerical prediction) are normalized to the largest potential difference in all applied patterns.}
+	\caption{\label{fig:MBL_Wcal} \textbf {Relative potential offsets within one pattern.} In order to benchmark the applied disorder potential, we compare the measured site offsets within one pattern to the numerical Fourier transform of the corresponding hologram (dotted line). The agreement between the data and numerical prediction confirms the high level of control over the applied optical potential. The relative potential offsets (both data and numerical prediction) are normalized to the largest potential difference in all applied patterns.}
 \end{figure}
 
 Our numerical studies show, that the exact potential differences do not exactly coincide with true quasi-periodic lattice potential (see fig.~\ref{fig:MBL_potential}). For all numerical simulations in this chapter, we use the disorder values extracted from the Fourier transforms of the holograms.
@@ -91,7 +97,7 @@ In order to investigate the breakdown of thermalization, we focus on the subsyst
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=\textwidth]{figures/MBL_ETH_breakdown.pdf}
-	{\caption{{\bf Breakdown of thermalization on a single site level (A)} We compute the single-site von Neumann entropy $S_\text{vN}^{(1)}$ from the site-resolved atom number statistics (inset) after different evolution times (scaled with tunneling time $\tau=\hbar/J$) in the presence of weak and strong disorder. {\bf(B)} Probability $p_1$ to retrieve the initial state (inset) and $S_\text{vN}^{(1)}$ for different $W$, measured after $100\tau$ evolution. The deviation from the thermal ensemble prediction for strong disorder signals the breakdown of thermalization in the system. All solid lines show the prediction of exact diagonalization calculations without any free parameters. Each data point is sampled from 197 disorder realizations (see \ref{appendix B}). Error bars denote the s.e.m.}
+	{\caption{{\bf Breakdown of thermalization on a single site level (A)} We compute the single-site von Neumann entropy $S_\text{vN}^{(1)}$ from the site-resolved atom number statistics (inset) after different evolution times (scaled with tunneling time $\tau=\hbar/J$) in the presence of weak and strong disorder. {\bf(B)} Probability $p_1$ to retrieve the initial state (inset) and $S_\text{vN}^{(1)}$ for different $W$, measured after $100\tau$ evolution. The deviation from the thermal ensemble prediction for strong disorder signals the breakdown of thermalization in the system. All solid lines show the prediction of exact diagonalization calculations without any free parameters. Each data point is sampled from 197 disorder realizations (see Appendix~\ref{AppendixB}). Error bars denote the s.e.m.}
 	\label{fig:MBL_ETH_breakdown}}
 \end{figure}
 
@@ -120,10 +126,10 @@ G_{2}^{fit}(d)= (A+B \times  V_2(d)) e^{-d/\xi},
 \end{equation}
 where $A$, $B$, and $\xi$ are fitting parameters. Subtracting those effects leads to $\widetilde{G^2}(d) = G^{(2)}(d) - B \times  V_2(d) e^{-d/\xi}$, that we use to interpret our results.
 
-\begin{figure}[h!]
+\begin{figure}[t]
 	\centering
-	\includegraphics[width=55mm]{figures/MBL_localization.pdf}
-	\caption{{\bf Spatial localization of the particles.} {\bf{(A)}} The density-density correlations $G^{(2)} (d)$ as a function of distance $d$ at weak and strong disorder after an evolution time of $100\tau$. The alternating nature of the density-density correlations is imprinted by the autocorrelation function of the quasiperiodic potential. {\bf (B)} We retrieve the exponential decay of the correlation function by subtracting the influence of the quasiperiodic potential (SI). {\bf (C)} Particle motion is confined within the correlation length $\xi$. We use a fit to extract $\xi$ for different disorder strengths. The fit function is a product of an exponential decay with the autocorrelation function of the quasiperiodic potential (SI). Each measurement is sampled from 197 disorder realizations (SI). The solid lines show the prediction of exact diagonalization---calculated without any free parameters. Error bars denote the s.e.m in {\bf (A-B)}, and the fit error in {\bf (C)}.}
+	\includegraphics{figures/MBL_localization.pdf}
+	\caption{{\bf Spatial localization of the particles.} {\bf{(A)}} The density-density correlations $\widetilde{G^{2}}(d)$ as a function of distance $d$ at weak and strong disorder after an evolution time of $100\tau$. {\bf (B)} Particle motion is confined within the correlation length $\xi$. We use a fit to extract $\xi$ for different disorder strengths. The fit function is a product of an exponential decay with the autocorrelation function of the quasiperiodic potential. Each measurement is sampled from 197 disorder realizations. The solid lines show the prediction of exact diagonalization---calculated without any free parameters. Error bars denote the s.e.m in {\bf (A)}, and the fit error in {\bf (C)}.}
 	\label{fig:MBL_localization}
 \end{figure}
 
@@ -179,6 +185,13 @@ and after $t_{ent}=\pi \frac{\hbar}{U_{eff}}$ we get
 \end{equation}
 The final state is maximally entangled, since two states of each orbital are orthogonal to each other. Note, that this effect is purely quantum, since it stems form the coherent phase evolution of the superposition states, hence it can not be captured by any mean-field approach or classically interacting particles.
 
+\begin{figure}[t]
+	\centering
+	\includegraphics[scale=1.6]{figures/MBL_ent_split.pdf}
+	\caption{{\bf Entropy dynamics in MBL.} The von-Neumann entanglement entropy is the sum of the number entropy and the configurational entropy, whose dynamics in an MBL system occur over different time scales.}
+	\label{fig:MBL_ent_concept}
+\end{figure}
+
 The dynamics of $S_\text{n}$ and $S_\text{c}$ in the MBL regime \ref{fig:MBL_ent_concept} can be understood in the picture of localized orbitals. Since the localized orbitals restrict the particle motion, the number entropy can only develop within the localization length and hence $S_\text{n}$ saturates at a lower value than for the thermal case. In the MBL regime, disorder suppresses the tunnelling. Therefore, saturation is reached at a later time. However, the dynamics of $S_\text{c}$ are strikingly different, as they are governed by the relative phase evolution between different many-body states.  The effective interactions among the orbitals decay exponentially with the distance between them. As a consequence, entanglement between distant orbitals forms slowly, causing a logarithmic growth of $S_\text{c}$, even after $S_\text{n}$ has saturated \cite{Serbyn2013, Serbyn2013b, Huse2014, Znidaric2008, Bardarson2012}.
 
 \section{Accessing configurational entanglement through correlations}
@@ -198,27 +211,27 @@ In general, one does not a priory expect that there should be any linear relatio
 However, in the localized regime for sufficiently small amounts of entanglement, our numerical studies show, that the two are proportional to one another (see fig.~\ref{fig:MBL_c_Sc}). This proportionality even hold for different values of intercalation strength, making it a good proxi for configurational entropy in such systems.
 \begin{figure}[t]
 	\centering
-	\includegraphics[width=140mm]{figures/MBL_C_SC.pdf}
-	\caption{\label{fig:MBL_c_Sc} \textbf{Correlations and Configurational Entropy.} The configurational correlations  as measured in the fock basis is plotted on the left as a function of interaction strength and evolution time. The corresponding configurational entropy is plotted in the right as a function of interaction strength and evolution time.  All of these simulations were performed by exact diagonalization on 6 sites with 6 atoms.}
+	\includegraphics{figures/MBL_C_SC.pdf}
+	\caption{\label{fig:MBL_c_Sc} \textbf{Correlations and Configurational Entropy.} {\bf (A)} The configurational correlations  as measured in the Fock basis is plotted as a function of interaction strength and evolution time. {\bf (B)} The corresponding configurational entropy is plotted in the right as a function of interaction strength and evolution time.  All of these simulations were performed by exact diagonalization on 6 sites with 6 atoms.}
 \end{figure}
 
 As pointed out in \cite{huse saturated value of entanglement}, the total amount of entanglement in the MBL phase depends on the initial state of the system. Therefore, for any system size, the maximal amount of entanglement can be adjusted such that the proportionality between $S_C$ and $C$ holds for the entire duration of time evolution, making the correlator a very powerful tool to study this phenomenon. The correlator $C$ is also experimentally more accessible than $S_c$, since it involves projective measurements in the particle number basis. Therefore, it can be generalized to higher dimensions and different experimental platforms, e.g. trapped ions, neutral atoms, superconducting circuits, where a direct measurement of entanglement entropy remains challenging.
+
+\begin{figure}[t!]
+	\centering
+	\includegraphics{figures/MBL_entropy_dynamics.pdf}
+	\caption{{\bf Dynamics of the number and configurational entanglement. } {\bf (A)} We probe the configurational entropy with the correlator $C$. At strong disorder, it shows a persistent slow increase that is consistent with a logarithmic growth in time, until the longest evolution times covered by our measurements. {\bf (B)} The number entropy $S_\text{n}$ reaches a stationary value within few tunneling times. Without disorder, the entanglement dynamics change: both $S_\text{n}$ and $C$ quickly reach a stationary value (insets). The solid lines show the prediction of exact diagonalization calculations without any free parameters. The above data was taken on a six-site system and averaged over four disorder realizations. Error bars denote the s.e.m.}\label{fig:correlations}
+\end{figure}
 
 \section{Entropy dynamics and scaling}
 
 We study the time dynamics of $S_\text{n}$ and $C$ with and without disorder (Fig.~4B, C). Without disorder, both $S_\text{n}$ and $C$ rapidly rise and reach a stationary value within a few tunnelling times (insets). In the presence of strong disorder, we find a qualitatively different behaviour for the two quantities: $S_\text{n}$ reaches a stationary state within few tunnelling times, although after longer evolution time due to reduced effective tunnelling. Additionally, the stationary value is significantly reduced, indicating suppressed particle transport through the system. The correlator $C$, in contrast, shows a persistent slow growth up to the longest evolution times reached by our measurements. The growth is consistent with logarithmic behaviour over two decades of time evolution. We conclude that we observe interaction-induced dynamics in the MBL regime, which are consistent with the phenomenological model \cite{Serbyn2013, Serbyn2013b, Huse2014}. The agreement of the long-term dynamics of $S_\text{p}$ and $C$ with the numerical calculations in the MBL regime confirms the unitary evolution of the system within its 6435-dimensional Hilbert space over $100\,\tau$. The system remains in the finite-time limit, not in the finite-size limit since the spread of entanglement has not yet stopped at the longest studied evolution times. 
 
-\begin{figure}[t]
-	\centering
-	\includegraphics[width=82mm]{figures/MBL_entropy_dynamics.pdf}
-	\caption{{\bf Dynamics of the number and configurational entanglement. (A)} The von-Neumann entanglement entropy is the sum of the number entropy and the configurational entropy, whose dynamics in an MBL system occur over different time scales (SI). {\bf (B)} We probe the configurational entropy with the correlator $C$. At strong disorder, it shows a persistent slow increase that is consistent with a logarithmic growth in time, until the longest evolution times covered by our measurements. {\bf (C)} The number entropy $S_\text{n}$ reaches a stationary value within few tunneling times. Without disorder, the entanglement dynamics change: both $S_\text{n}$ and $C$ quickly reach a stationary value (insets). The solid lines show the prediction of exact diagonalization calculations without any free parameters. The above data was taken on a six-site system and averaged over four disorder realizations. Error bars denote the s.e.m.}\label{fig:correlations}
-\end{figure}
-
 Considering the entropy in subsystems of different size gives us insights into the spatial distribution of entanglement in the system: in a one-dimensional system, locally generated entanglement results in a subsystem size independent entropy, whereas entanglement from non-local correlations causes the entropy to increase in proportion to the size of the subsystem. In reference to the subsystem's boundary and volume, these scalings are called area law and volume law. We find almost no change in $S_\text{n}$ for different subsystems of an MBL system (Fig.~5A)---indicating an area law scaling due to localized particles and confirming that particle transport is suppressed. In contrast, the configurational correlations $C$ increase until the subsystem reaches half the system size (Fig.~5B). Such a volume-law scaling is also expected for the entanglement entropy and demonstrates that the observed logarithmic growth indeed stems from non-local correlations across the entire system.
 
-\begin{figure}[h!]
+\begin{figure}[t]
 	\centering
-	\includegraphics[width=58mm]{figures/MBL_scaling.pdf}
+	\includegraphics{figures/MBL_scaling.pdf}
 	\caption{{\bf Spatial distribution of the entanglement.} Number entropy and configurational correlator in the MBL regime ($W=8.9\,J$) after an evolution time of $100\tau$. {\bf (A)} The number entropy $S_\text{n}$ does not depend on the subsystem size, i.e. follows an area law. {\bf (B)} The configurational correlator $C$ increases almost linearly with the subsystem size, showing a volume-law behavior. The solid lines show the prediction of exact diagonalization calculations without any free parameters. The above data was averaged over four disorder realizations. Error bars denote the s.e.m. and are below the marker size if hidden.}
 	\label{fig:scalings}
 \end{figure}
