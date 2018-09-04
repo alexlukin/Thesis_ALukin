@@ -17,8 +17,8 @@ At this point, one can ask a question how to translate the classical ideas of th
 
 \begin{figure*}[t]
 	\centering
-	\includegraphics[scale=2]{figures/ETH_fig1.pdf}
-	\caption{{\bf Schematic of thermalization dynamics in closed systems}.  An isolated quantum system at zero temperature can be described by a single pure wavefunction $\vert \Psi \rangle$. Subsystems of the full quantum state appear pure, as long as the entanglement (indicated by grey lines) between subsystems is negligible. If suddenly perturbed, the full system evolves unitarily, developing significant entanglement between all parts of the system. While the full system remains in a pure, and in this sense zero-entropy state, the entropy of entanglement causes the subsystems to equilibrate, and local, thermal mixed states appear to emerge within a globally pure quantum state.  }
+	\includegraphics[scale=1.5]{figures/ETH_fig1.pdf}
+	\caption{{\bf Schematic of thermalization dynamics in closed systems}.  An isolated quantum system at zero temperature can be described by a single pure wave function $\vert \Psi \rangle$. Subsystems of the full quantum state appear pure, as long as the correlations (indicated by grey lines) between subsystems is negligible. If suddenly perturbed, the full system evolves unitarily, developing significant correlations between all parts of the system. While the full system remains in a pure, and in this sense zero-entropy state, the correlations between the subsystem and its complement drive local equilibration, and local, thermal mixed states appear to emerge within a globally pure quantum state.  }
 	\label{fig:ETH_conceptual}
 \end{figure*}
 
@@ -34,8 +34,8 @@ Unfortunately, there is no known experimental technique to reliably prepare indi
 
 \begin{figure*}[t!]
 	\centering
-	\includegraphics[scale=2.0]{figures/ETH_quench.pdf}
-	\caption{{\bf Local observables in a globally pure quenched state.} In a quench, the ground state of the initial Hamiltonian (represented in its eigenbasis in the first panel) is projected onto many eigenstates of the new Hamiltonian and undergoes unitary evolution.}
+	\includegraphics[scale=1.5]{figures/ETH_quench.pdf}
+	\caption{{\bf Quantum quench.} The wave function of the system starting in the single state of the initial Hamiltonian gets reprojected onto a large number of different eigenstates after the sudden change in the system parameters. During the time evolution fallowing the quench the eigenstates dephase with respect to one another due to their energy mismatch. }
 	\label{fig:ETH_quench}
 \end{figure*}
 
@@ -48,7 +48,7 @@ where $E_n$ and $c_n$ are the corresponding energy and amplitude of the projecti
 \section{Experimental protocol}
 In our experiments, we study the emergence of thermalization in a six-site chain of interacting Bosons. To initiate the experiment, we isolate a $2 \times 6$ plaquette from a larger low-entropy Mott insulator with unity filling as shown in figure~\ref{fig:ETH_protocol}. At this point, each system is in a product state of single-atom Fock states on each of the constituent sites. We then suddenly switch on tunnelling along the chains while the tunnelling between them is suppressed. Each chain is restricted to the original six sites by introducing a barrier at the ends of the chains to prevent tunnelling out of the system. These combined steps realize the setting described in the previous section. Each chain represents an identical but independent copy of a quenched system of six particles on six sites, which evolves in the quenched Hamiltonian for a controllable duration.
 
-\begin{figure}[h!]
+\begin{figure}[t]
 	\centering
 	\includegraphics[scale=1.2]{figures/ETH_protocol.pdf}
 	\caption{{\bf Experimental sequence} Using tailored optical potentials superimposed on an optical lattice, we deterministically prepare two copies of a six-site Bose-Hubbard system, where each lattice site is initialized with a single atom. We enable tunnelling in the x-direction and obtain either the ground state (adiabatic melt) or a highly excited state (sudden quench) in each six-site copy. After a variable evolution time, we freeze the evolution and characterize the final quantum state by either acquiring number statistics or the local and global purity.}
@@ -66,7 +66,7 @@ In order to observe thermalization in our system, we first focus on measurements
 \begin{figure*}[t]
 	\centering
 	\includegraphics[scale=1.2]{figures/ETH_localDistr.pdf}
-	\caption{{\bf Local observables in a globally pure quenched state. } {\bf (A)} Along with the microcanonical ensemble, several other closely related ensembles are compared to the data. {\bf (B)} Thermalization of local observables. For the different temperatures and subsystems shown, the measured number statistics are in excellent agreement with microcanonical and canonical thermal ensembles, verifying the thermal character of the local density matrix. A grand-canonical ensemble reproduces the data very well as long as the subsystem is small compared to the full system. The error bars are the standard deviation of our observation over times between 10 and $20~\mathrm{ms}$.}
+	\caption{{\bf Local observables in a quenched state. } {\bf (A)} Probability distribution of number operator is shown for subsystems of one and tree sites and for two different final quench depth. Along with the microcanonical ensemble, several other closely related ensembles are compared to the data. The error bars are the standard deviation of our observation over times between 10 and $20~\mathrm{ms}$. The measured number statistics are in excellent agreement with microcanonical and canonical thermal ensembles, verifying the thermal character of the local density matrix. {\bf (B)} Various thermal ensembles that were used for comparison with the data. The eigenspectrum of the final Hamiltonian along with initial projection amplitudes onto the many-body eigenstates are shown on the left.}
 	\label{fig:ETH_Ensembles}
 \end{figure*}
 
@@ -75,7 +75,7 @@ We compare our measurements to the predictions of thermal ensembles that are ill
 \begin{figure*}[t!]
 	\centering
 	\includegraphics[scale=1.75]{figures/ETH_Eint.pdf}
-	\caption{{\bf Local observables in a globally pure quenched state. } Thermalization occurs even for global quantities such as the full system interaction energy. The thermalization dynamics as calculated from our number-resolved images are in near agreement with exact numerical simulation and a canonical prediction.}
+	\caption{{\bf Interaction energy of the full system. } Thermalization occurs even for global quantities such as the full system interaction energy. The thermalization dynamics as calculated from our number-resolved images are in near agreement with exact numerical simulation and a canonical prediction.}
 	\label{fig:ETH}
 \end{figure*}
 
@@ -92,7 +92,7 @@ We can perform a more rigorous test of single-site thermalization by comparing t
 \begin{figure}[t!]
 	\centering
 	\includegraphics[scale=1.5]{figures/ETH_fidelity.pdf}
-	\caption{{\bf Observation of local thermalization.} In measuring the probabilities to observe a given particle number on a single site, we can obtain the local, single-site density matrix and observe the approach to thermalization. Using two different metrics, we compare the mixed state observed to the mixed state derived from the subsystem of a canonical thermal ensemble, after a quench to $U/J=1.56$. The trace distance provides an effective distance between the mixed states in Hilbert space, while the fidelity is an overlap measure for mixed states. The two metrics illustrate how the pure state subsystem approaches the thermal ensemble subsystem shortly after the quench. The starting value of these quantities is given by the overlap of the initial pure state with the thermal mixed state. Solid lines connect the data points.}
+	\caption{{\bf Thermalization of the single-site density matrix.} In measuring the probabilities to observe a given particle number on a single site, we can obtain the local, single-site density matrix and observe the approach to thermalization. Using two different metrics, we compare the mixed state observed to the mixed state derived from the subsystem of a canonical thermal ensemble, after a quench to $U/J=1.56$. The trace distance provides an effective distance between the mixed states in Hilbert space, while the fidelity is an overlap measure for mixed states. The two metrics illustrate how the pure state subsystem approaches the thermal ensemble subsystem shortly after the quench. The starting value of these quantities is given by the overlap of the initial pure state with the thermal mixed state. Solid lines connect the data points.}
 	\label{fig:ETH_Rho}
 \end{figure} 
 

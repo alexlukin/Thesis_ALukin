@@ -115,7 +115,7 @@ Notice, that by applying a unitary transformation given by
 \end{aligned}
 \label{eq:DFT}
 \end{equation}
-we will transform our state into $\ket{\psi}_1 \otimes \ket{\psi}_2 \xrightarrow[]{\text{DFT}} (a^{\dagger}_1)^p (a^{\dagger}_2)^{2m}\ket{0}$. This means that application of such transformation to two identical states results in the even number of particles in the corresponding subspace. Therefore, it can serve as a probe of indistinguishability between two quantum states. The transformation described by the equation~\ref{eq:DFT} corresponds a two point version of the discrete Fourier transform (DFT), and the results in the following sections can be generalized to higher order correlation functions by considering multi-point DFTs \ref{Daley2012}.
+we will transform our state into $\ket{\psi}_1 \otimes \ket{\psi}_2 \xrightarrow[]{\text{DFT}} (a^{\dagger}_1)^p (a^{\dagger}_2)^{2m}\ket{0}$. This means that application of such transformation to two identical states results in the even number of particles in the corresponding subspace. Therefore, it can serve as a probe of indistinguishability between two quantum states. The transformation described by the equation~\ref{eq:DFT} corresponds a two point version of the discrete Fourier transform (DFT), and the results in the following sections can be generalized to higher order correlation functions by considering multi-point DFTs \cite{Daley2012}.
 
 The DFT transformation is very similar to the beamsplitter operation given by equation~\ref{eq:BS}. In fact, the beamsplitter can be reduced to the DFT by applying local $\frac{\pi}{2}$ phase shifts on one of the input ports of the beamsplitter. However, if two states have no defined phase relations, such as fixed particle number states, both operations are equivalent to one another. That's why applying the beamsplitter to the photon number states allows us to tell if the states were identical or not. In our experiment, we always work with fixed particle number states, which allows us to use the beamsplitter transformation instead of the DFT as well. 
 
@@ -130,14 +130,14 @@ Tr(SWAP(\rho^{(1)} \otimes \rho^{(2)})) \xrightarrow[]{\text{DFT}} \left< P_2 \r
 \end{equation}
 where $\left< P_2 \right>$ is average parity in the second subspace.
 
-The final step is to connect the expectation value of the $SWAP$ to the quantum state overlap \ref{Ekert2002}, which for two states described by the density matrices $\rho^{(1)}$ and $\rho^{(2)}$ is given by $Tr(\rho^{(1)} \rho^{(2)})$. To see this, consider the following:
+The final step is to connect the expectation value of the $SWAP$ to the quantum state overlap \cite{Ekert2002}, which for two states described by the density matrices $\rho^{(1)}$ and $\rho^{(2)}$ is given by $Tr(\rho^{(1)} \rho^{(2)})$. To see this, consider the following:
 \begin{equation}
 \begin{aligned}
 Tr(SWAP(\rho^{(1)} \otimes \rho^{(2)})) =& Tr(SWAP(\rho^{(1)}_{ij} \rho^{(2)}_{kl} \ket{i}\bra{j} \otimes \ket{k}\bra{l})) =Tr(\rho^{(1)}_{ij} \rho^{(2)}_{kl} \ket{k}\bra{j} \otimes \ket{i}\bra{l}) = \\
 &=\sum_{ijkl}\rho^{(1)}_{ij} \rho^{(2)}_{kl} \delta_{kj} \delta_{il} = \sum_{ik}\rho^{(1)}_{ik} \rho^{(2)}_{ki} = Tr(\rho^{(1)} \rho^{(2)}).
 \end{aligned}
 \end{equation}
-In particular, if $\rho^{(1)}=\rho^{(2)}=\rho$, then the state overlapped with itself leads to the purity \ref{Alves2004, Daley2012} $Tr(\rho^{(1)} \rho^{(2)}) = Tr(\rho^2)$.
+In particular, if $\rho^{(1)}=\rho^{(2)}=\rho$, then the state overlapped with itself leads to the purity \cite{Alves2004, Daley2012} $Tr(\rho^{(1)} \rho^{(2)}) = Tr(\rho^2)$.
 
 Let's summarize the conclusions above: In order to measure the purity of a state described by the density matrix $\rho$, we need to prepare two identical copies of the same state, perform DFT on them, and finally measure average particle parity in one of the subspaces
 \begin{equation}
@@ -146,22 +146,28 @@ Tr(\rho^2) = Tr(\rho\rho) = Tr(SWAP(\rho \otimes \rho)) \xrightarrow[]{\text{DFT
 Moreover, for the states without a defined phase relation (such as fixed particle number states) any unitary transform that splits the particles equally between two subspaces can play the role of DFT (for instance a beamsplitter operation).
 
 \section{Multi-mode systems}
-So far we have only discussed the situation where the state of interest occupies a single bosonic mode (i.e. can be written as a polynomial function of a single creation operator $a^{\dagger}$ acting on the vacuum). However, in general, the states can occupy multiple modes at the same time. For example, consider a bosonic particle on a lattice that is delocalized over all sites of the lattice. Its state, up to a normalization, can be written as $\ket{\psi} = \sum_i a_i^{\dagger} \ket{0}$, where $a_i^{\dagger}$ is a creation operator on the i-th site of the lattice. This means that in the scheme described above we have to perform the DFT on each mode available to the system (i.e. in this case on each every lattice site). For our experimental implementation, it means that we have to perform a beamsplitter operation between the corresponding sites of each of the copies. In order to compute the overall parity of a given realization, we can simply take the product of the parities of individual modes $\left<P_{full}\right> = \left< \prod_i P_i \right>$, where $i$ runs through all modes of the system (see fig.~\ref{CBH_multy_mode}).
+So far we have only discussed the situation where the state of interest occupies a single bosonic mode (i.e. can be written as a polynomial function of a single creation operator $a^{\dagger}$ acting on the vacuum). However, in general, the states can occupy multiple modes at the same time. For example, consider a bosonic particle on a lattice that is delocalized over all sites of the lattice. Its state, up to a normalization, can be written as $\ket{\psi} = \sum_i a_i^{\dagger} \ket{0}$, where $a_i^{\dagger}$ is a creation operator on the i-th site of the lattice. This means that in the scheme described above we have to perform the DFT on each mode available to the system (i.e. in this case on each every lattice site). For our experimental implementation, it means that we have to perform a beamsplitter operation between the corresponding sites of each of the copies. In order to compute the overall parity of a given realization, we can simply take the product of the parities of individual modes $\left<P_{full}\right> = \left< \prod_i P_i \right>$, where $i$ runs through all modes of the system (see fig.~\ref{fig:CBH_multy_mode}).
+
+\begin{figure*}[t]
+	\centering
+	\includegraphics[scale=1]{figures/CBH_multimode.pdf}
+	\caption{{\bf Parity of a multi-mode system}. In order to compute the total parity of the multi-mode system we need to multiply the parities of individual modes and then average the product over the realizations. By defining a subsystem as certain subset of modes we can compute the parity associated with that particular subsystem by taking the product over the corresponding modes.}
+	\label{fig:CBH_multy_mode}
+\end{figure*}
 
 The multi-mode structure of a state additionally enables us to measure the purity of the subsystem, which can be defined as a certain subset of modes within the state. By averaging the parity only among those $\left<P_{sub}\right> = \left< \prod_{i \in sub} P_i \right>$ we will obtain the purity of the given subsystem.  Importantly, we can obtain the purity of any subsystem through data processing, by simply blinding ourselves to the outcomes of the beamsplitters that do not belong to the subsystem of interest. This will be very important later on when we will discuss the measurement of entanglement within the system.
 
 \section{Decoherence between copies}
 Although being a powerful tool to measure the purity of the system, many-body interference has one crucial limitation. Since the method measures the state overlap between two copies, it results in the purity only if two states are exactly identical. This task becomes even more challenging if we are interested in dynamical measurements because we have to ensure that both the initial states of the two copies as well as Hamiltonians under which each copy is evolving are identical to each other.
 
-In order to understand these effects, we perform numerical studies in the parameter regime corresponding to our experiment. We consider the scenario where two system starts in the same initial state but evolve under slightly different Hamiltonians. For these simulations, we work with one-dimensional $8$ site-long Bose-Hubbard chain with $U/J\sim1$. The initial state is a charge-density wave at half filling. To make the Hamiltonians between two copies different the tunnelling strength in the second one is set to be $J_2 = J_1(1+\epsilon)$, where $\epsilon \ll 1$. The tunnelling strength also provides a natural time scale for the problem given by $\frac{2 \pi}{J}$.
-
-\begin{figure*}[t]
+\begin{figure}[t]
 	\centering
 	\includegraphics[scale=1]{figures/CBH_overlap.pdf}
 	\caption{{\bf Dephasing of two many-body states}. Quantum state overlap $Tr(\rho_1 \rho_2) $ between two states that evolve under slightly different Hamiltonians, for which the difference in tunneling strength is parametrized be the parameter $\epsilon = \frac{\Delta J}{J}$. The overlap remains near unity until the time given by $\tau = 10^{log(\epsilon)-1}$, when it decays to zero after $\sim 1$ decade of time evolution.}
 	\label{fig:CBH_overlap}
-\end{figure*}
+\end{figure}
 
+In order to understand these effects, we perform numerical studies in the parameter regime corresponding to our experiment. We consider the scenario where two system starts in the same initial state but evolve under slightly different Hamiltonians. For these simulations, we work with one-dimensional $8$ site-long Bose-Hubbard chain with $U/J\sim1$. The initial state is a charge-density wave at half filling. To make the Hamiltonians between two copies different the tunnelling strength in the second one is set to be $J_2 = J_1(1+\epsilon)$, where $\epsilon \ll 1$. The tunnelling strength also provides a natural time scale for the problem given by $\frac{2 \pi}{J}$.
 
 As we expect, if $\epsilon = 0$ then two copies remain identical throughout the whole evolution time, resulting in the state overlap $Tr(\rho_1 \rho_2) = 1$ (see fig.~\ref{fig:CBH_overlap}). However, if $\epsilon > 0$ state overlap remains at $1$ up to some time scale, but then decays to zero over about one decade of time evolution. From the numerical data, we can identify that the deviation from unity overlap occurs at a timescale given by $\tau = 10^{log(\epsilon)-1}$. From this analysis, we can conclude that, as long as we look at the timescales shorter than $\tau$, many-body interference results in the purity of the state. However, it also imposes a challenge for the experiments, if we would like to do measurements on very long timescales.
 
@@ -171,6 +177,13 @@ As we expect, if $\epsilon = 0$ then two copies remain identical throughout the 
 %\end{equation}
 %where $\epsilon \ll 1$. Since the eigenvalues are similar  some initial state $\ket{\psy_0}$
 
+\begin{figure}[t]
+	\centering
+	\includegraphics[scale=1.2]{figures/ETH_protocol.pdf}
+	\caption{{\bf Experimental sequence} Using cutting techniques, we deterministically prepare two copies of a six-site Bose-Hubbard system, where each lattice site is initialized with a single atom. We suddenly switch on the tunnelling in the x-direction and obtain a highly excited state in each six-site copy, populating a large fraction of the many-body eigenstates. After a variable evolution time, we freeze the dynamics along the chains and characterize the final quantum state overlap between two copies by performing the beamsplitter operation.}
+	
+	\label{fig:CBH_purity_protocol}
+\end{figure} 
 
 In order to characterize our system, we perform the following experiment (see fig.~\ref{fig:CBH_purity_protocol}): First, we prepare two copies of an unentangled product state, consisting of a chain of $6$ atoms in the $45\mathrm{E_r}$ deep lattice in both directions. Next, we confine our system to the desired size (for this experiment either $6$ or $12$ sites long), by detuning the sites outside the region, in a similar way as for the beamsplitter experiments. Then, we rapidly drop the lattice along the chains, allowing atoms to tunnel. After a variable evolution time, we suddenly freeze the dynamics by increasing the lattice depth. Till this point, the lattice between the copies stays high such that the two states evolve independently from each other. Finally, we perform the beamsplitter operation between two copies, by dropping the lattice between them and allowing for tunnelling corresponding to the beamsplitter time. At the end of the experiment, we perform atom-number-resolved readout of the whole system.
 

@@ -91,8 +91,8 @@ In order to investigate the breakdown of thermalization, we focus on the subsyst
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=\textwidth]{figures/MBL_ETH_breakdown.pdf}
-	{\caption{{\bf Breakdown of thermalization on a single site level (A)} We compute the single-site von Neumann entropy $S_\text{vN}^{(1)}$ from the site-resolved atom number statistics (inset) after different evolution times (scaled with tunneling time $\tau=\hbar/J$) in the presence of weak and strong disorder. {\bf(B)} Probability $p_1$ to retrieve the initial state (inset) and $S_\text{vN}^{(1)}$ for different $W$, measured after $100\tau$ evolution. The deviation from the thermal ensemble prediction for strong disorder signals the breakdown of thermalization in the system. All solid lines show the prediction of exact diagonalization calculations without any free parameters. Each data point is sampled from 197 disorder realizations (SI). Error bars denote the s.e.m.}}
-	\label{fig:MBL_ETH_breakdown}
+	{\caption{{\bf Breakdown of thermalization on a single site level (A)} We compute the single-site von Neumann entropy $S_\text{vN}^{(1)}$ from the site-resolved atom number statistics (inset) after different evolution times (scaled with tunneling time $\tau=\hbar/J$) in the presence of weak and strong disorder. {\bf(B)} Probability $p_1$ to retrieve the initial state (inset) and $S_\text{vN}^{(1)}$ for different $W$, measured after $100\tau$ evolution. The deviation from the thermal ensemble prediction for strong disorder signals the breakdown of thermalization in the system. All solid lines show the prediction of exact diagonalization calculations without any free parameters. Each data point is sampled from 197 disorder realizations (SI). Error bars denote the s.e.m.}
+	\label{fig:MBL_ETH_breakdown}}
 \end{figure}
 
 Counting the atom number on an individual lattice site in different experimental realizations allows us to obtain the probabilities $p_n$ and compute $S_\text{vN}^{(1)}$. We perform such measurements for various evolution times. At low disorder depth ($W=1.0(1)J$), the entropy grows over a few tunnelling times and then reaches a stationary value (see fig,~\ref{fig:MBL_ETH_breakdown}~A). The stationary value is reduced for a deep disorder ($W=8.9(1)J$) and remains constant over two orders of magnitude, up to several hundred tunnelling times. The lack of entropy increase indicates the absence of heating in the system. The excellent agreement of the measured entropy with \textit{ab initio} calculations up to the longest measured evolution times suggests a highly unitary evolution of the system.
@@ -136,13 +136,13 @@ Our observation of localized particles is consistent with the description of MBL
 We now turn to a characterization of the entanglement properties of larger subsystems, starting with a subsystem covering half the system size. As for the case of a single lattice site, the particle number in the subsystem can become entangled with the number in the remaining system through tunnelling dynamics. However, subsystems which extend over several lattice sites, with a given particle number, offer the particle configuration as an additional degree of freedom for the entanglement. 
 
 In the Schmidt basis the density matrix for the subsystem $\rho$ has only diagonal elements, and the von Neumann entropy can be written as
-\begin{equation}\label{eqn:Svn}
+\begin{equation}
 S_\text{vN}=\sum_i \rho_{ii} \log {\left ( \rho_{ii} \right )}.
 \end{equation}
 If the global particle number is conserved, there can not be any coherence between the states with different particle number
 within the subsystem, since the particle number in the subsystem's complement is uniquely determined. Therefore  the density matrix can be written as $\rho_{ii} = p_n \rho_{ii}^{(n)}$, where $p_n = \sum_{ii \subset n} \rho_{ii}$ is the probability of having $n$ particles within the subsystem and $\rho_{ii}^{(n)}$ describe the relative probability of being in the certain state within the given particle number sub-sector, such that $\sum_{ii} \rho_{ii}^{(n)}=1$. Hence the von Neumann entropy can be written as:
 
-\begin{equation}\label{eqn:Svn}
+\begin{equation}
 \begin{aligned}
 S_\text{vN}=&\sum_{n=0}^N \sum_i p_n  \rho_{ii}^{(n)} \log {\left (p_n \rho_{ii}^{(n)} \right )}=\sum_{n=0}^N \sum_i p_n  \rho_{ii}^{(n)} \left (\log{\left ( p_n \right )} + \log {\left ( \rho_{ii}^{(n)} \right )} \right ) = \\
 &=\sum_{n=0}^N p_n  \log{\left ( p_n \right )}  \sum_i \rho_{ii}^{(n)} + \sum_{n=0}^N p_n \sum_{i} \rho_{ii}^{(n)} \log {\left ( \rho_{ii}^{(n)} \right )} = \\
