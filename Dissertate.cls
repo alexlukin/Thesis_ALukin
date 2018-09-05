@@ -309,6 +309,7 @@
     \begin{appendices}
         \include{chapters/appendixA}
         \include{chapters/appendixB}
+        \include{chapters/appendixC}
     \end{appendices}
     \input{endmatter/personalize}
     \clearpage

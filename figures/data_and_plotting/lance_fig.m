@@ -7,4 +7,9 @@ hold on
 plot(((1+cos(pi^2*[-1.99:0.01:2]))/2))
 hold off
 box off
-xticks off
+% xticks off
+
+xx = [-1.99:0.01:2];
+psf = @(x) sinc(pi.*x)
+figure(141)
+plot(xx,psf(xx).^2)

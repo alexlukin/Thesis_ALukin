@@ -58,6 +58,13 @@ Bakr, W.~S., Gillen, J.~I., Peng, A., F{\"{o}}lling, S., \& Greiner, M. (2009).
   Hubbard-regime optical lattice}.
 \newblock {\em Nature}, 462, 74--77.
 
+\bibitem[Bakr et~al., 2010]{Bakr2010}
+Bakr, W.~S., Peng, A., Tai, M.~E., Ma, R., Simon, J., Gillen, J.~I., Folling,
+  S., Pollet, L., \& Greiner, M. (2010).
+\newblock {Probing the Superfluid-to-Mott Insulator Transition at the
+  Single-Atom Level}.
+\newblock {\em Science}, 329(5991), 547--550.
+
 \bibitem[Ba{\~{n}}uls et~al., 2017]{Banuls2017}
 Ba{\~{n}}uls, M.~C., Yao, N.~Y., Choi, S., Lukin, M.~D., \& Cirac, J.~I.
   (2017).
@@ -242,6 +249,11 @@ Elben, A., Vermersch, B., Dalmonte, M., Cirac, J.~I., \& Zoller, P. (2018).
 \newblock {R{\'{e}}nyi Entropies from Random Quenches in Atomic Hubbard and
   Spin Models}.
 \newblock {\em Physical Review Letters}, 120, 050406.
+
+\bibitem[Floyd \& Steinberg, 1976]{Floyd1976}
+Floyd, R. \& Steinberg, L. (1976).
+\newblock {An adaptive algorithm for spatial grey scale}.
+\newblock {\em Proc. Soc. Inf. Disp.}, 17, 75.
 
 \bibitem[Gadway et~al., 2011]{Gadway2011}
 Gadway, B., Pertot, D., Reeves, J., Vogt, M., \& Schneble, D. (2011).
@@ -481,8 +493,8 @@ L{\"{u}}schen, H.~P., Bordia, P., Scherg, S., Alet, F., Altman, E., Schneider,
   Transition in One-Dimensional Quasiperiodic Systems}.
 \newblock {\em Physical Review Letters}, 119, 260401.
 
-\bibitem[Ma, ]{MaThesis}
-Ma, R.
+\bibitem[Ma, 2014]{MaThesis}
+Ma, R. (2014).
 \newblock {\em {Engineered potentials and dynamics of ultracold quantum gases
   under the microscope}}.
 \newblock Phd thesis, Harvard University.
@@ -503,8 +515,8 @@ Mazets, I.~E., Schumm, T., \& Schmiedmayer, J. (2008).
 \newblock {Breakdown of Integrability in a Quasi-1D Ultracold Bosonic Gas}.
 \newblock {\em Physical Review Letters}, 100, 210403.
 
-\bibitem[Mazurenko, ]{MarurenkoThesis}
-Mazurenko, A.
+\bibitem[Mazurenko, 2017]{MarurenkoThesis}
+Mazurenko, A. (2017).
 \newblock {\em {Probing Long Range Antiferromagnetism and Dynamics in the
   Fermi-Hubbard Model}}.
 \newblock Phd thesis, Harvard University.
@@ -535,6 +547,11 @@ Nandkishore, R. \& Huse, D.~A. (2015).
 \newblock {Many-Body Localization and Thermalization in Quantum Statistical
   Mechanics}.
 \newblock {\em Annual Review of Condensed Matter Physics}, 6, 15--38.
+
+\bibitem[Nanduri et~al., 2014]{Nanduri2014}
+Nanduri, A., Kim, H., \& Huse, D.~A. (2014).
+\newblock {Entanglement spreading in a many-body localized system}.
+\newblock {\em Physical Review B}, 90, 064201.
 
 \bibitem[Neill et~al., 2016]{Neill2016}
 Neill, C., Roushan, P., Fang, M., Chen, Y., Kolodrubetz, M., Chen, Z., Megrant,
@@ -583,8 +600,8 @@ Potter, A.~C., Vasseur, R., \& Parameswaran, S.~A. (2015).
 \newblock {Universal Properties of Many-Body Delocalization Transitions}.
 \newblock {\em Physical Review X}, 5, 031033.
 
-\bibitem[Preiss, ]{PreissThesis}
-Preiss, P.~M.
+\bibitem[Preiss, 2015]{PreissThesis}
+Preiss, P.~M. (2015).
 \newblock {\em {Atomic Bose-Hubbard Systems with Single-Particle Control}}.
 \newblock Phd thesis, Harvard University.
 
