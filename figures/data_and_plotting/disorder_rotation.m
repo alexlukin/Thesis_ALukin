@@ -20,7 +20,7 @@ errorbar(depth, podd_W, podd_W_err,'o','Color',[0.043,0.353,0.592],'CapSize',0,'
 ylim([0 0.6])
 yticks([0:.2:.6])
 xlim([-.5 6.5])
-xlabel('Potential depth (\it{J})')
+xlabel('Potential depth ({\itJ})')
 ylabel('State overlap')
 
 set(gca, 'FontSize', 8, 'LineWidth', 1, 'FontName', 'Arial');
@@ -36,7 +36,7 @@ ax.Position = [left bottom 5.7 ax_height];
 subplot(1,2,2)
 errorbar(angles, 1-2.*Podd_rot, 2*Podd_rot_error,'o','Color',[0.043,0.353,0.592],'CapSize',0,'LineWidth',1.2,'MarkerFaceColor','w','markers',5)
 % hold off
-xlabel('Relative angle (\it{deg})')
+xlabel('Relative angle (deg)')
 ylabel('State overlap')
 
 xlim([-.8 1.8])

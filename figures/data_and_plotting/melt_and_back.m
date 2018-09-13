@@ -17,9 +17,10 @@ hold off
 
 set(gca,'XScale','log')
 xlim([3.5*10^-1 .6*10^3])
-xticks(round(logspace(-.5,3,8)))
-% xticklabels({'0','^{1}/_{8}','^{1}/_{4}','^{3}/_{8}'})
-xlabel('Hold time (\it{ms})')
+% xticks(round(logspace(-.5,3,8)))
+xticks(logspace(-.5,3,8))
+xticklabels({'0.3','1','3','10','32','100','316'})
+xlabel('Hold time (ms)')
 
 ylim([.5 1.])
 yticks([0:0.1:1])

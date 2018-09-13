@@ -6,6 +6,13 @@ data4 = csvread('rms_err_Kvary_randpar_0p04_anlge_21by50pi.csv');
 % fit2 = csvread('..\Data\24sites_fit_3Er.csv');
 % fit3 = csvread('..\Data\24sites_fit_4p5Er.csv');
 
+data1(end,2) = 0;
+data1 = circshift(data1,1);
+data2(end,2) = 0;
+data2 = circshift(data2,1);
+data3(end,2) = 0;
+data3 = circshift(data3,1);
+
 h = figure(4128);
 
 figwidth = 9;
@@ -45,14 +52,14 @@ box('on')
 % uistack(l2,'top');
 % uistack(l3,'top');
 
-xlim([0 pi])
+xlim([-0.05 pi])
 xticks([0:pi/4:pi])
 xticklabels({'0','\pi/4','\pi/2','3\pi/4','\pi'})
-xlabel('Grating angle ($rad$)','Interpreter','latex')
+xlabel('Grating angle (rad)')
 
 ylim([0 .07])
 yticks(0:0.02:0.06)
-ylabel('RMS error (arb units)','Interpreter','latex')
+ylabel('RMS error (arb units)')
 
 legend({'$\xi=0$', '$\xi=0.2$', '$\xi=0.4$'},'Interpreter','latex','Location','northwest')
 legend boxoff
@@ -88,11 +95,11 @@ box('on')
 xlim([-pi pi])
 xticks([-pi:pi/2:pi])
 xticklabels({'-\pi','-\pi/2','0','\pi/2','\pi'})
-xlabel('Phase ($rad$)','Interpreter','latex')
+xlabel('Phase (rad)')
 
 ylim([0 1.05])
 yticks([0 0.5 1])
-ylabel('Amplitude','Interpreter','latex')
+ylabel('Amplitude')
 
 % legend({'$\xi=0$', '$\xi=0.2$', '$\xi=0.4$'},'Interpreter','latex','Location','best')
 % legend boxoff
@@ -111,7 +118,7 @@ plot(data4(:,1),data4(:,2),'-','Color',bryg(1,:),'LineWidth',1.2)
 
 xticks([0.1:.2:0.9])
 xticklabels({'10','3.33','2','1.43','1.11'})
-xlabel('pix/period','Interpreter','latex')
+xlabel('pix/period')
 
 ylim([0 .07])
 % yticks([])
