@@ -22,12 +22,12 @@ hold off
 ylim([0 3.1])
 yticks(0:1:3)
 yticklabels({'0','1','2','3'})
-ylabel('Depth (\it{Er})')
+ylabel('Depth (E_r)')
 
 xlim([-2 2])
 xticks([-1.5:1:1.5])
 % xticklabels({'0','^{1}/_{8}','^{1}/_{4}','^{3}/_{8}'})
-xlabel('Distance (\it{lattice sites})')
+xlabel('Distance (lattice sites)')
 
 set(gca, 'FontSize', 8, 'LineWidth', 1, 'FontName', 'Arial');
 

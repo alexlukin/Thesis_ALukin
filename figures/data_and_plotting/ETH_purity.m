@@ -24,7 +24,7 @@ l2 = errorbar(ent6Er(:,1)./(2*pi*66/1000),1-2.*ent6Er(:,2),2.*ent6Er(:,3),...
     'o','Color',bryg(1,:),'CapSize',0,'markers',4,'LineWidth',1.,'MarkerFaceColor','w')
 hold off
 
-xlabel('time after quench (ms)')
+xlabel('Time after quench (ms)')
 xlim([0 21])
 xticks([0 5 10 15 20])
 set(gca,'XScale','lin')

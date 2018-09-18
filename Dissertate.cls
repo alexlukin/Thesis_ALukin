@@ -213,6 +213,9 @@
 % Formatting guidelines found in:
 % http://www.gsas.harvard.edu/publications/form_of_the_phd_dissertation.php
 \renewcommand{\frontmatter}{
+	\newpage
+	\thispagestyle{empty}
+	\mbox{}
 	\input{frontmatter/personalize}
 	\maketitle
 	\copyrightpage
